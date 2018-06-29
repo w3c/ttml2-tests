@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- invalid - bad tts:backgroundPosition values -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
-    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
-    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="18" ttva:expectedWarnings="0" ttva:model="ttml2">
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="17" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <styling>
       <!-- bad 1-component values -->
-      <style tts:backgroundPosition=""/>
       <style tts:backgroundPosition="foo"/>
       <style tts:backgroundPosition="1x"/>
       <!-- bad 2-component values -->
