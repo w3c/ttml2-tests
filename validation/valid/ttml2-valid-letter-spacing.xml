@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- valid - tts:letterSpacing - partial set of values (not exhaustive) -->
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    ttp:cellResolution="64 24"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    tts:extent="1280px 720px"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
+  <head>
+    <styling>
+      <style tts:letterSpacing="normal"/>
+      <style tts:letterSpacing="0px"/>
+      <style tts:letterSpacing="0em"/>
+      <style tts:letterSpacing="0c"/>
+      <style tts:letterSpacing="0vw"/>
+      <style tts:letterSpacing="0vh"/>
+      <style tts:letterSpacing="0%"/>
+      <style tts:letterSpacing="1px"/>
+      <style tts:letterSpacing="1em"/>
+      <style tts:letterSpacing="1c"/>
+      <style tts:letterSpacing="1vw"/>
+      <style tts:letterSpacing="1vh"/>
+      <style tts:letterSpacing="1%"/>
+      <style tts:letterSpacing="-0px"/>
+      <style tts:letterSpacing="-0em"/>
+      <style tts:letterSpacing="-0c"/>
+      <style tts:letterSpacing="-0vw"/>
+      <style tts:letterSpacing="-0vh"/>
+      <style tts:letterSpacing="-0%"/>
+      <style tts:letterSpacing="-1px"/>
+      <style tts:letterSpacing="-1em"/>
+      <style tts:letterSpacing="-1c"/>
+      <style tts:letterSpacing="-1vw"/>
+      <style tts:letterSpacing="-1vh"/>
+      <style tts:letterSpacing="-1%"/>
+    </styling>
+  </head>
+</tt>
