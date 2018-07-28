@@ -6,6 +6,7 @@
   <head>
     <styling>
       <style tts:backgroundImage="none"/>
+      <style tts:backgroundImage="../resources/test.png"/>
     </styling>
   </head>
 </tt>
