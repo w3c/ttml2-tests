@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- invalid - bad tta:gain value - empty value -->
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="1" ttva:expectedWarnings="0" ttva:model="ttml2">
+  <head>
+    <styling>
+      <style tta:gain=""/>
+    </styling>
+  </head>
+</tt>
