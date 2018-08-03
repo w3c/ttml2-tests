@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- valid - tts:bpd - partial set of values (not exhaustive) -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
-    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
     ttp:cellResolution="64 24"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     tts:extent="1280px 720px"
