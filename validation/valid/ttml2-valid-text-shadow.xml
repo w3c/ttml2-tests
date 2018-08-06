@@ -9,6 +9,9 @@
     <styling>
       <style tts:textShadow="none"/>
       <style tts:textShadow="1px 1px"/>
+      <style tts:textShadow="-1px 1px"/>
+      <style tts:textShadow="1px -1px"/>
+      <style tts:textShadow="-1px -1px"/>
       <style tts:textShadow="1px 1px red"/>
       <style tts:textShadow="1px 1px 1px"/>
       <style tts:textShadow="1px 1px 1px red"/>
