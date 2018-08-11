@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- valid - tts:extent - partial set of TTML2 values on tt:region element (not exhaustive) -->
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    ttp:cellResolution="64 24"
+    tts:extent="1280px 720px"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
+  <head>
+    <layout>
+      <region tts:extent="auto"/>
+      <region tts:extent="contain"/>
+      <region tts:extent="cover"/>
+      <region tts:extent="auto auto"/>
+      <region tts:extent="available available"/>
+      <region tts:extent="fitContent fitContent"/>
+      <region tts:extent="minContent minContent"/>
+      <region tts:extent="maxContent maxContent"/>
+      <region tts:extent="1px auto"/>
+      <region tts:extent="auto 1px"/>
+      <region tts:extent="1px 1px"/>
+      <region tts:extent="1c auto"/>
+      <region tts:extent="auto 1c"/>
+      <region tts:extent="1c 1c"/>
+      <region tts:extent="1% auto"/>
+      <region tts:extent="1rw auto"/>
+      <region tts:extent="auto 1rh"/>
+      <region tts:extent="1rw 1rh"/>
+      <region tts:extent="1rh 1rw"/>
+      <region tts:extent="auto 1%"/>
+      <region tts:extent="1% 1%"/>
+    </layout>
+  </head>
+</tt>
