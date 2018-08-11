@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- valid - tt:image with tts:extent -->
+<!-- valid - tt:image with tts:extent using TTML2 auto and root container relative length -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
@@ -9,9 +9,6 @@
   <body>
     <div>
       <image src="../resources/test.png" type="image/png" tts:extent="auto"/>
-      <image src="../resources/test.png" type="image/png" tts:extent="contain"/>
-      <image src="../resources/test.png" type="image/png" tts:extent="cover"/>
-      <image src="../resources/test.png" type="image/png" tts:extent="80px 60px"/>
       <image src="../resources/test.png" type="image/png" tts:extent="80rw 60rh"/>
     </div>
   </body>

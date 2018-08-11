@@ -4,6 +4,9 @@
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="1" ttva:expectedWarnings="0" ttva:model="ttml2">
-  <head/>
-  <body tts:extent="10% 364.4smoot"/>
+  <head>
+    <layout>
+      <revion tts:extent="10% 364.4smoot"/>
+    </layout>
+  </head>
 </tt>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- valid - tts:extent - partial set of values (not exhaustive) -->
+<!-- valid - tts:extent - partial set of TTML2 values (not exhaustive) -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
