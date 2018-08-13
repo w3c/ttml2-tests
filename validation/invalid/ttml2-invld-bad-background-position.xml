@@ -2,8 +2,8 @@
 <!-- invalid - bad tts:backgroundPosition values -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
-    xmlns:tts="http://www.w3.org/ns/ttml#styling"
-    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="17" ttva:expectedWarnings="0" ttva:model="ttml2">
+    xmlns:tts="http://www.w3.org/ns/ttml#styling" tts:extent="1280px 720px"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="24" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <styling>
       <!-- bad 1-component values -->
@@ -13,6 +13,8 @@
       <style tts:backgroundPosition="left foo"/>
       <style tts:backgroundPosition="foo top"/>
       <style tts:backgroundPosition="50% left"/>
+      <style tts:backgroundPosition="top 50%"/>
+      <style tts:backgroundPosition="bottom 50%"/>
       <!-- bad 3-component values -->
       <style tts:backgroundPosition="top center 1px"/>
       <style tts:backgroundPosition="top 1px 1px"/>
@@ -27,6 +29,11 @@
       <style tts:backgroundPosition="top top 1px"/>
       <style tts:backgroundPosition="bottom bottom 1px"/>
       <!-- bad 4-component values -->
+      <style tts:backgroundPosition="center 1px center 1px"/>
+      <style tts:backgroundPosition="center 1px left 1px"/>
+      <style tts:backgroundPosition="center 1px right 1px"/>
+      <style tts:backgroundPosition="left 1px center 1px"/>
+      <style tts:backgroundPosition="right 1px center 1px"/>
     </styling>
   </head>
 </tt>
