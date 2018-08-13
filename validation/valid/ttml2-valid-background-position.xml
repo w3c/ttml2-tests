@@ -16,12 +16,10 @@
       <style tts:backgroundPosition="1px 1em"/>
       <style tts:backgroundPosition="left 50%"/>
       <style tts:backgroundPosition="left center"/>
-      <!-- the following four items should be valid; see https://github.com/w3c/ttml2/issues/174
       <style tts:backgroundPosition="center left"/>
       <style tts:backgroundPosition="center right"/>
       <style tts:backgroundPosition="top center"/>
       <style tts:backgroundPosition="bottom center"/>
-      -->
       <style tts:backgroundPosition="center center"/>
       <!-- 3-component values -->
       <style tts:backgroundPosition="center top 1px"/>
@@ -41,7 +39,34 @@
       <style tts:backgroundPosition="top right 1px"/>
       <style tts:backgroundPosition="bottom right 1px"/>
       <!-- 4-component values -->
-      <!-- TBD -->
+      <style tts:backgroundPosition="left 1px top 100%"/>
+      <style tts:backgroundPosition="right 1px top 100%"/>
+      <style tts:backgroundPosition="left 50% bottom 1px"/>
+      <style tts:backgroundPosition="left 0% bottom 1px"/>
+      <style tts:backgroundPosition="left 100% bottom 1px"/>
+      <style tts:backgroundPosition="left 50% bottom 1px"/>
+      <style tts:backgroundPosition="left 1px top 50%"/>
+      <style tts:backgroundPosition="right 1px top 50%"/>
+      <style tts:backgroundPosition="left 50% top 1px"/>
+      <style tts:backgroundPosition="left 0% bottom 1px"/>
+      <style tts:backgroundPosition="left 0% top 1px"/>
+      <style tts:backgroundPosition="left 1px top 100%"/>
+      <style tts:backgroundPosition="left 1px top 50%"/>
+      <style tts:backgroundPosition="left 1px top 0%"/>
+      <style tts:backgroundPosition="left 100% bottom 1px"/>
+      <style tts:backgroundPosition="left 100% top 1px"/>
+      <style tts:backgroundPosition="right 1px top 100%"/>
+      <style tts:backgroundPosition="right 1px top 50%"/>
+      <style tts:backgroundPosition="right 1px top 0%"/>
+      <style tts:backgroundPosition="left 1px top 0%"/>
+      <style tts:backgroundPosition="right 1px top 0%"/>
+      <style tts:backgroundPosition="left 50% top 1px"/>
+      <style tts:backgroundPosition="left 100% top 1px"/>
+      <style tts:backgroundPosition="left 100% top 1px"/>
+      <style tts:backgroundPosition="bottom 10% left 10%"/>
+      <style tts:backgroundPosition="bottom 10% right 10%"/>
+      <style tts:backgroundPosition="top 10% left 10%"/>
+      <style tts:backgroundPosition="top 10% right 10%"/>
     </styling>
   </head>
 </tt>
