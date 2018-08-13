@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- invalid - processor profiles parameter, unqualified, but no designator, i.e., empty -->
+<!-- invalid - ttp:processorProfiles - unqualified, empty value -->
 <tt:tt
   xml:lang="en"
   ttp:processorProfiles=""
