@@ -4,7 +4,7 @@
     xmlns:tt="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns="http://www.w3.org/ns/ttml"
-    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling" tts:extent="1280px 720px"
     xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
     ttp:profile="ttml2-presentation"
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
@@ -12,6 +12,10 @@
     <metadata>
       <ttm:desc>Ruby text and base containers</ttm:desc>
     </metadata>
+    <styling>
+      <initial tts:color="white"/>
+      <initial tts:fontSize="48px"/>
+    </styling>      
     <layout>
       <region tts:displayAlign="center" tts:textAlign="center" tts:backgroundColor="black" xml:id="r1" tts:position="center center" tts:extent="20% 80%" tts:writingMode="tbrl"/>
     </layout>
