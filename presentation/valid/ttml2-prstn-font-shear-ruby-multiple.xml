@@ -9,7 +9,7 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <metadata>
-      <ttm:desc>#shear with ruby and tatechuyoko (multiple lines per paragraph)</ttm:desc>
+      <ttm:desc>#fontShear with ruby and tatechuyoko (multiple lines per paragraph)</ttm:desc>
     </metadata>
     <styling>
       <initial tts:color="white"/>
@@ -22,7 +22,7 @@
   </head>
   <body>
     <div begin="0s" end="1s" region="vertical">
-      <p tts:rubyAlign="spaceAround" tts:textAlign="center" tts:shear="16.67%">
+      <p tts:rubyAlign="spaceAround" tts:textAlign="center" tts:fontShear="16.67%">
         <span tts:ruby="container">
           <span tts:ruby="baseContainer"><span tts:ruby="base">山</span></span>
           <span tts:ruby="textContainer"><span tts:ruby="text">やま</span></span>

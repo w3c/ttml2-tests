@@ -9,7 +9,7 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <metadata>
-      <ttm:desc>#shear - no ruby or tatechuyoko</ttm:desc>
+      <ttm:desc>#lineShear - no ruby or tatechuyoko</ttm:desc>
     </metadata>
     <styling>
       <initial tts:color="white"/>
@@ -24,56 +24,56 @@
   </head>
   <body>
     <div begin="0s" end="1s">
-      <p region="caption">Positive shear</p>
-      <p region="horizontal" tts:shear="16.78842%">
+      <p region="caption">Positive line shear</p>
+      <p region="horizontal" tts:lineShear="16.78842%">
         16.78842%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="16.78842%">
+      <p region="vertical" tts:lineShear="16.78842%">
         16.78842%<br/>三日坊主
       </p>
     </div>
     <div begin="1s" end="2s">
-      <p region="caption">Positive shear</p>
-      <p region="horizontal" tts:shear="50%">
+      <p region="caption">Positive line shear</p>
+      <p region="horizontal" tts:lineShear="50%">
         50%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="50%">
+      <p region="vertical" tts:lineShear="50%">
         50%<br/>三日坊主
       </p>
     </div>
     <div begin="2s" end="3s">
-      <p region="caption">Positive shear</p>
-      <p region="horizontal" tts:shear="64.333%">
+      <p region="caption">Positive line shear</p>
+      <p region="horizontal" tts:lineShear="64.333%">
        64.333%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="64.333%">
+      <p region="vertical" tts:lineShear="64.333%">
         64.333%<br/>三日坊主
       </p>
     </div>
     <div begin="3s" end="4s">
-      <p region="caption">Negative shear</p>
-      <p region="horizontal" tts:shear="-16.78842%">
+      <p region="caption">Negative line shear</p>
+      <p region="horizontal" tts:lineShear="-16.78842%">
         -16.78842%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="-16.78842%">
+      <p region="vertical" tts:lineShear="-16.78842%">
         -16.78842%<br/>三日坊主
       </p>
     </div>
     <div begin="4s" end="5s">
-      <p region="caption">Negative shear</p>
-      <p region="horizontal" tts:shear="-50%">
+      <p region="caption">Negative line shear</p>
+      <p region="horizontal" tts:lineShear="-50%">
         -50%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="-50%">
+      <p region="vertical" tts:lineShear="-50%">
         -50%<br/>三日坊主
       </p>
     </div>
     <div begin="5s" end="6s">
-      <p region="caption">Negative shear</p>
-      <p region="horizontal" tts:shear="-64.333%">
+      <p region="caption">Negative line shear</p>
+      <p region="horizontal" tts:lineShear="-64.333%">
         -64.333%<br/>三日坊主
       </p>
-      <p region="vertical" tts:shear="-64.333%">
+      <p region="vertical" tts:lineShear="-64.333%">
         -64.333%<br/>三日坊主
       </p>
     </div>
