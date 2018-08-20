@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- derived from imsc-tests/imsc1_1/ttml/textShadow/textShadow001.ttml -->
 <tt xml:lang="ja"
-    xmlns:tt="http://www.w3.org/ns/ttml"
-    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns="http://www.w3.org/ns/ttml"
-    xmlns:tts="http://www.w3.org/ns/ttml#styling" tts:extent="1280px 720px"
     xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
     ttp:profile="ttml2-presentation"
+    tts:extent="1280px 720px"
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <styling>
