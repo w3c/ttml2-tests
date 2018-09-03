@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- valid - use tt:audio embeddings in block context -->
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio">
+  <head>
+  </head>
+  <body>
+    <div>
+      <audio src="resources/div_audio.mp3" type="audio/mp3"/>
+      <p begin="2s" end="6s" tta:gain="0.25">
+        <span begin="2s" end="4s">
+            <audio src="resources/span1_audio.mp3" type="audio/mp3"/>
+        Main audio level reduced here</span>
+      </p>
+      <p begin="6s" end="12s" tta:gain="0.25">
+        <span begin="2s" end="4s">
+            <audio src="resources/span2_audio.mp3" type="audio/mp3" tta:gain="0.25"/>
+        Main and span audio level reduced here</span>
+      </p>    </div>
+  </body>
+</tt>
+
