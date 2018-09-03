@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- valid - use tt:audio embeddings in block context -->
 <tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     xmlns:tta="http://www.w3.org/ns/ttml#audio">
@@ -7,17 +6,20 @@
   </head>
   <body>
     <div>
-      <audio src="resources/div_audio.mp3" type="audio/mp3"/>
-      <p begin="2s" end="6s" tta:gain="0.25">
-        <span begin="2s" end="4s">
-            <audio src="resources/span1_audio.mp3" type="audio/mp3"/>
-        Main audio level reduced here</span>
+      <p begin="1s" end="2s">
+        <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-normal-volume.mp3" type="audio/mp3"/>
+        This is normal volume
       </p>
-      <p begin="6s" end="12s" tta:gain="0.25">
-        <span begin="2s" end="4s">
-            <audio src="resources/span2_audio.mp3" type="audio/mp3" tta:gain="0.25"/>
-        Main and span audio level reduced here</span>
-      </p>    </div>
+      <p begin="3s" end="4s" tta:gain="0.25">
+        <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-half-volume.mp3" type="audio/mp3"/>
+        This is half volume
+      </p>
+      <p begin="5s" end="6s" tta:gain="0">
+        <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-muted.mp3" type="audio/mp3"/>
+        This is muted
+      </p>
+      <p>This text should not result in any audio.</p>
+    </div>
   </body>
 </tt>
 
