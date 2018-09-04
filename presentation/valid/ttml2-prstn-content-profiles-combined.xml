@@ -14,12 +14,12 @@
     </metadata>
     <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="content">
       <extensions>
-        <extension value="optional">#undefined</extension>
+        <extension value="optional">#unsupported</extension>
       </extensions>
     </profile>
     <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="content">
       <extensions>
-        <extension value="required">#undefined</extension>
+        <extension value="required">#unsupported</extension>
       </extensions>
     </profile>
     <styling>
@@ -32,7 +32,7 @@
   </head>
   <body style="sBody">
     <div region="area1" begin="0s" end="1s">
-      <p>May not appear on implementation that performs full profile processing without override.</p>
+      <p>Should not appear on implementation that performs full profile processing without override.</p>
     </div>
   </body>
 </tt>
