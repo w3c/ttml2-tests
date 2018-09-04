@@ -4,20 +4,13 @@
     xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
-    ttp:contentProfileCombination="mostRestrictive"
-    ttp:inferProcessorProfileSource="combined"
     tts:extent="1280px 720px"
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <metadata>
-      <ttm:desc>#contentProfiles-combination</ttm:desc>
+      <ttm:desc>#processorProfiles</ttm:desc>
     </metadata>
-    <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="content">
-      <extensions>
-        <extension value="optional">#undefined</extension>
-      </extensions>
-    </profile>
-    <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="content">
+    <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="processor">
       <extensions>
         <extension value="required">#undefined</extension>
       </extensions>
