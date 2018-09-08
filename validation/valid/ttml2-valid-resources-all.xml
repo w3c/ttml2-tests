@@ -6,7 +6,6 @@
   <head>
     <resources>
       <audio xml:id="audio1" src="../resources/test.mp3" type="audio/mpeg"/>
-      <data xml:id="data1" src="http://www.w3.org/ns/ttml/resource/#empty" type="application/octet-stream"/>
       <font xml:id="font1" src="../resources/test.otf" type="font/otf"/>
       <image xml:id="image1" src="../resources/test.png" type="image/png"/>
     </resources>
