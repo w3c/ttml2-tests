@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- PENDING for 2e - update to nesting restrictions required -->
 <!-- invalid - xlink:href - nested minimal usage is not permitted -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"

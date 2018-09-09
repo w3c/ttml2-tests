@@ -9,15 +9,8 @@
   <head>
     <layout>
       <region tts:extent="auto"/>
-      <region tts:extent="auto auto"/>
-      <region tts:extent="1px auto"/>
-      <region tts:extent="auto 1px"/>
       <region tts:extent="1px 1px"/>
-      <region tts:extent="1c auto"/>
-      <region tts:extent="auto 1c"/>
       <region tts:extent="1c 1c"/>
-      <region tts:extent="1% auto"/>
-      <region tts:extent="auto 1%"/>
       <region tts:extent="1% 1%"/>
     </layout>
   </head>
