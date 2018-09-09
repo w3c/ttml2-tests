@@ -194,7 +194,7 @@
             "ttml2-invld-bad-background-extent-unknown-keyword",
             "ttml2-invld-bad-background-image-all-space",
             "ttml2-invld-bad-background-image-empty",
-            "ttml2-invld-bad-background-image-unresolvable-internal-uri",
+            "ttml2-invld-bad-background-image-unresolvable-fragment-uri",
             "ttml2-invld-bad-background-origin-all-space",
             "ttml2-invld-bad-background-origin-empty",
             "ttml2-invld-bad-background-origin-unknown-keyword",
@@ -224,7 +224,7 @@
             "ttml2-invld-bad-background-extent-unknown-keyword",
             "ttml2-invld-bad-background-image-all-space",
             "ttml2-invld-bad-background-image-empty",
-            "ttml2-invld-bad-background-image-unresolvable-internal-uri",
+            "ttml2-invld-bad-background-image-unresolvable-fragment-uri",
             "ttml2-invld-bad-background-origin-all-space",
             "ttml2-invld-bad-background-origin-empty",
             "ttml2-invld-bad-background-origin-unknown-keyword",
@@ -402,7 +402,6 @@
             "ttml2-invld-bad-border-radii-2-delimiter",
             "ttml2-invld-bad-border-radii-2-negative",
             "ttml2-invld-bad-border-radii-missing-length",
-            "ttml2-invld-bad-border-radii-unknown-keyword",
             "ttml2-invld-bad-border-unknown-keyword"
         ]
     },
