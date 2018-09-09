@@ -6,10 +6,10 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:extent="80rw 60rh"/>
+      <region xml:id="r1" tts:extent="80rw 60rh"/>
     </layout>
   </head>
-  <body>
+  <body region="r1">
     <div>
       <image src="../resources/test.png" type="image/png" tts:extent="40rw 30rh"/>
     </div>
