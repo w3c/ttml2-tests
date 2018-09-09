@@ -8,10 +8,10 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:extent="auto"/>
-      <region tts:extent="1px 1px"/>
-      <region tts:extent="1c 1c"/>
-      <region tts:extent="1% 1%"/>
+      <region xml:id="r1" tts:extent="auto"/>
+      <region xml:id="r2" tts:extent="1px 1px"/>
+      <region xml:id="r3" tts:extent="1c 1c"/>
+      <region xml:id="r4" tts:extent="1% 1%"/>
     </layout>
   </head>
 </tt>

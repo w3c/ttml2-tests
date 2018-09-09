@@ -6,9 +6,9 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:displayAlign="before"/>
-      <region tts:displayAlign="center"/>
-      <region tts:displayAlign="after"/>
+      <region xml:id="r1" tts:displayAlign="before"/>
+      <region xml:id="r2" tts:displayAlign="center"/>
+      <region xml:id="r3" tts:displayAlign="after"/>
     </layout>
   </head>
 </tt>

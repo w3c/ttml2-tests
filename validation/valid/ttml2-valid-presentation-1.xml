@@ -15,10 +15,10 @@
       <style/>
     </styling>
     <layout>
-      <region/>
+      <region xml:id="r1"/>
     </layout>
   </head>
-  <body xml:id="body" xml:space="default" begin="0s" end="30s" timeContainer="par">
+  <body region="r1" xml:space="default" begin="0s" end="30s" timeContainer="par">
     <div dur="10s">
       <p>
         <span/>
