@@ -6,7 +6,7 @@ The tests found in these test suites are limited to functionality and constraint
 
 ## Validation Test Suite
 
-The validation test suites are found under the `validation` directory, and are divided into two sets: (1) tests of valid content (validity tests) and (2) tests of invalid content (invalidity) tests. The result of each test can be characterized as PASS or FAIL.
+The validation test suite is found under the `validation` directory, and is divided into two parts: (1) tests of valid content (validity tests) and (2) tests of invalid content (invalidity) tests. The result of each test can be characterized as PASS or FAIL.
 
 A PASS result for a validity test occurs if the validator does not reject (report a validation error for) the content of the test. In contrast, a FAIL result for a validity test occurs if the validator rejects (reports a validation error for) the content of the test, in which case, such a result is deemed a _false negative_ result.
 
@@ -16,6 +16,11 @@ A validator is consider to _strictly pass_ the test suite if it does not report 
 
 For the purpose of reporting an implementation of the validation function for a specific (designated) feature, the implementation must strictly pass all tests for that feature; however, it is not required to fully pass all tests for that feature since the TTML2 specification does not require a validator to detect all possibile invalidities, about which see [validate document](https://www.w3.org/TR/ttml2/#semantics-procedure-validate-document).
 
-A mappping from (designated) features to specific tests is found in `validation/tests.json`.
+A mapping from (designated) features to specific tests is found in `validation/tests.json`.
 
+## Presentation Test Suite
+
+The presentation test suite is found under the `presentation` directory, and is divided into two parts: (1) tests of presenting valid content and (2) tests of presenting invalid content tests.
+
+For tests having primarily visual presentation semantics, each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`, which contains the output of a particular reference implementation (TTPE). Each such _reference archive_ contains a manifest file and one or more image frames represented in some image format. In the present form of the reference archives, the image format is `image/svg+xml`. These image frames should **not** be construed as normative, but merely serve as a possible reference image for performing (human visual) comparisons of expected output.
 
