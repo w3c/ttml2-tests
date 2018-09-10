@@ -16,7 +16,7 @@ A validator is considered to **_strictly pass_** the test suite if it does not r
 
 For the purpose of reporting an implementation of the validation function for a specific (designated) feature, the implementation must strictly pass all tests for that feature; however, it is not required to fully pass all tests for that feature since the TTML2 specification does not require a validator to detect all possibile invalidities, about which see [validate document](https://www.w3.org/TR/ttml2/#semantics-procedure-validate-document).
 
-A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each new TTML2 feature designator, lists valid and invalid tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration.
+A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each new TTML2 feature designator, lists validity and invalidity tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration.
 
 ## Presentation Test Suite
 
