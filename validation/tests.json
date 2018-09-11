@@ -335,11 +335,11 @@
     },
     "#base": {
         "valid": [
-            { "test": "ttml2-valid-base" }
+            { "test": "ttml2-valid-base", "exclude": true }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-all-space" },
-            { "test": "ttml2-invld-base-empty" }
+            { "test": "ttml2-invld-base-all-space", "exclude": true },
+            { "test": "ttml2-invld-base-empty", "exclude": true }
         ]
     },
     "#base-general": {
@@ -1057,12 +1057,12 @@
             { "test": "ttml2-valid-luminance-gain" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-luminance-gain-all-space" },
-            { "test": "ttml2-invld-luminance-gain-empty" },
-            { "test": "ttml2-invld-luminance-gain-real-syntax" },
-            { "test": "ttml2-invld-luminance-gain-sign-negative" },
-            { "test": "ttml2-invld-luminance-gain-sign-positive" },
-            { "test": "ttml2-invld-luminance-gain-unknown-keyword" }
+            { "test": "ttml2-invld-bad-luminance-gain-all-space" },
+            { "test": "ttml2-invld-bad-luminance-gain-empty" },
+            { "test": "ttml2-invld-bad-luminance-gain-real-syntax" },
+            { "test": "ttml2-invld-bad-luminance-gain-sign-negative" },
+            { "test": "ttml2-invld-bad-luminance-gain-sign-positive" },
+            { "test": "ttml2-invld-bad-luminance-gain-unknown-keyword" }
         ]
     },
     "#metadata-item": {
@@ -1071,9 +1071,9 @@
             { "test": "ttml2-valid-metadata-item-qualified" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-metadata-item-named-all-space" },
-            { "test": "ttml2-invld-metadata-item-named-empty" },
-            { "test": "ttml2-invld-metadata-item-named-qualified-missing-binding" }
+            { "test": "ttml2-invld-metadata-item-all-space" },
+            { "test": "ttml2-invld-metadata-item-empty" },
+            { "test": "ttml2-invld-metadata-item-qualified-missing-binding" }
         ]
     },
     "#metadata-version-2": {
@@ -1694,12 +1694,12 @@
     },
     "#textAlign-absolute": {
         "valid": [
-            { "test": "ttml2-valid-text-align-absolute" }
+            { "test": "ttml2-valid-text-align-absolute", "exclude": true }
         ],
         "invalid": [
-            { "test": "ttml2-invld-bad-text-align-all-space" },
-            { "test": "ttml2-invld-bad-text-align-empty" },
-            { "test": "ttml2-invld-bad-text-align-unknown-keyword" }
+            { "test": "ttml2-invld-bad-text-align-all-space", "exclude": true },
+            { "test": "ttml2-invld-bad-text-align-empty", "exclude": true },
+            { "test": "ttml2-invld-bad-text-align-unknown-keyword", "exclude": true }
         ]
     },
     "#textAlign-justify": {
@@ -1714,12 +1714,12 @@
     },
     "#textAlign-relative": {
         "valid": [
-            { "test": "ttml2-valid-text-align-justify" }
+            { "test": "ttml2-valid-text-align-justify", "exclude": true }
         ],
         "invalid": [
-            { "test": "ttml2-invld-bad-text-align-all-space" },
-            { "test": "ttml2-invld-bad-text-align-empty" },
-            { "test": "ttml2-invld-bad-text-align-unknown-keyword" }
+            { "test": "ttml2-invld-bad-text-align-all-space", "exclude": true },
+            { "test": "ttml2-invld-bad-text-align-empty", "exclude": true },
+            { "test": "ttml2-invld-bad-text-align-unknown-keyword", "exclude": true }
         ]
     },
     "#textAlign-version-2": {
