@@ -149,8 +149,8 @@
         "valid": [
             { "test": "ttml2-valid-background-clip" },
             { "test": "ttml2-valid-background-color" },
-            { "test": "ttml2-vaoid-background-color-rgb-function-padded-component" },
-            { "test": "ttml2-vaoid-background-color-rgba-function-padded-component" },
+            { "test": "ttml2-valid-background-color-rgb-function-padded-component" },
+            { "test": "ttml2-valid-background-color-rgba-function-padded-component" },
             { "test": "ttml2-valid-background-extent" },
             { "test": "ttml2-valid-background-image" },
             { "test": "ttml2-valid-background-origin" },
@@ -988,12 +988,12 @@
     },
     "#initial": {
         "valid": [
+            { "test": "ttml2-valid-initial-duplicate" },
             { "test": "ttml2-valid-initial-multiple" },
             { "test": "ttml2-valid-initial-none" },
             { "test": "ttml2-valid-initial-single" }
         ],
         "invalid": [
-            { "test": "ttml2-valid-initial-duplicate" },
             { "test": "ttml2-invld-initial-nested-style" }
         ]
     },
@@ -1647,11 +1647,11 @@
     },
     "#set-repeat": {
         "valid": [
-            { "test": "ttml2-valid-set-repeat-count" },
-            { "test": "ttml2-invld-bad-set-unknown-repeat-count" }
+            { "test": "ttml2-valid-set-repeat-count" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-bad-set-negative-repeat-count" }
+            { "test": "ttml2-invld-bad-set-negative-repeat-count" },
+            { "test": "ttml2-invld-bad-set-unknown-repeat-count" }
         ]
     },
     "#shear": {
