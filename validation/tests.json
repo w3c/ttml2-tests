@@ -1796,16 +1796,6 @@
             { "test": "ttml2-invld-bad-text-orientation-unknown-keyword" }
         ]
     },
-    "#textOrientation-sideways-LR": {
-        "valid": [
-            { "test": "ttml2-valid-text-orientation-sideways" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-text-orientation-all-space" },
-            { "test": "ttml2-invld-bad-text-orientation-empty" },
-            { "test": "ttml2-invld-bad-text-orientation-unknown-keyword" }
-        ]
-    },
     "#textShadow": {
         "valid": [
             { "test": "ttml2-valid-text-shadow" }
