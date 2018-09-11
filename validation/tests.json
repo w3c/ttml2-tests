@@ -1934,7 +1934,7 @@
         ],
         "invalid": [
             { "test": "ttml2-invld-xlink-href-all-space" },
-            { "test": "ttml2-invld-xlink-href-empty" },
+            { "test": "ttml2-invld-xlink-href-empty", "exclude": true },
             { "test": "ttml2-invld-xlink-href-nested-span" }
         ]
     }
