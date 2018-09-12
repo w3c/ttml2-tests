@@ -355,7 +355,7 @@
             { "test": "ttml2-valid-base-general" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-empty" }
+            { "test": "ttml2-invld-base-general-all-space" }
         ]
     },
     "#bidi-version-2": {
@@ -1669,7 +1669,6 @@
         ],
         "invalid": [
             { "test": "ttml2-invld-base-general-all-space" },
-            { "test": "ttml2-invld-base-general-empty" }
         ]
     },
     "#speak": {
