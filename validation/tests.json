@@ -746,7 +746,6 @@
         ],
         "invalid": [
             { "test": "ttml2-invld-base-general-all-space" },
-            { "test": "ttml2-invld-base-general-empty" },
             { "test": "ttml2-invld-data-chunked-missing-type" },
             { "test": "ttml2-invld-data-reference-internal-with-type" },
             { "test": "ttml2-invld-data-simple-missing-type" }
