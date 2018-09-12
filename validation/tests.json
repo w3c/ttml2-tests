@@ -338,8 +338,7 @@
             { "test": "ttml2-valid-base", "exclude": true }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-all-space", "exclude": true },
-            { "test": "ttml2-invld-base-empty", "exclude": true }
+            { "test": "ttml2-invld-base-all-space", "exclude": true }
         ]
     },
     "#base-general": {
@@ -347,8 +346,7 @@
             { "test": "ttml2-valid-base-general" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-general-all-space" },
-            { "test": "ttml2-invld-base-general-empty" }
+            { "test": "ttml2-invld-base-general-all-space" }
         ]
     },
     "#base-version-2": {
@@ -357,8 +355,7 @@
             { "test": "ttml2-valid-base-general" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-empty" },
-            { "test": "ttml2-invld-base-general-empty" }
+            { "test": "ttml2-invld-base-empty" }
         ]
     },
     "#bidi-version-2": {
