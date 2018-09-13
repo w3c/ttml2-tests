@@ -7,15 +7,12 @@
   <body>
     <div>
       <p begin="0s" end="3s" tta:speak="normal">
-      <audio src="../resources/audio/ttml2-prstn-audio-speak-this-sentence-is-spoken-normally.mp3" type="audio/mp3"/>
         <span>This sentence is spoken normally.</span>
       </p>        
       <p begin="3s" end="6s" tta:speak="slow">
-        <audio src="../resources/audio/ttml2-prstn-audio-speak-this-sentence-is-spoken-slowly.mp3" type="audio/mp3"/>
         <span>This sentence is spoken slowly.</span>
       </p>
       <p begin="6s" end="9s" tta:speak="fast">
-        <audio src="../resources/audio/ttml2-prstn-audio-speak-this-sentence-is-spoken-quickly.mp3" type="audio/mp3"/>
         <span>This sentence is spoken quickly.</span>
       </p>
     </div>

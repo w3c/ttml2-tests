@@ -7,15 +7,12 @@
   <body>
     <div>
       <p begin="0s" end="3s" tta:speak="normal" tta:pitch="0">
-      <audio src="../resources/audio/ttml2-prstn-audio-pitch-this-sentence-is-spoken-normally.mp3" type="audio/mp3"/>
         <span>This sentence is spoken normally.</span>
       </p>        
       <p begin="3s" end="6s" tta:speak="normal" tta:pitch="-10%">
-        <audio src="../resources/audio/ttml2-prstn-audio-pitch-this-sentence-should-be-deeper.mp3" type="audio/mp3"/>
         <span>This sentence should be deeper.</span>
       </p>
       <p begin="6s" end="9s" tta:speak="normal" tta:pitch="+10%">
-        <audio src="../resources/audio/ttml2-prstn-audio-pitch-this-sentence-should-be-higher.mp3" type="audio/mp3"/>
         <span>This sentence should be higher.</span>
       </p>
     </div>
