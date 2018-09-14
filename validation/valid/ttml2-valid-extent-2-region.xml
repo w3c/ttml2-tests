@@ -8,27 +8,27 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:extent="auto"/>
-      <region tts:extent="contain"/>
-      <region tts:extent="cover"/>
-      <region tts:extent="auto auto"/>
-      <region tts:extent="available available"/>
-      <region tts:extent="fitContent fitContent"/>
-      <region tts:extent="minContent minContent"/>
-      <region tts:extent="maxContent maxContent"/>
-      <region tts:extent="1px auto"/>
-      <region tts:extent="auto 1px"/>
-      <region tts:extent="1px 1px"/>
-      <region tts:extent="1c auto"/>
-      <region tts:extent="auto 1c"/>
-      <region tts:extent="1c 1c"/>
-      <region tts:extent="1% auto"/>
-      <region tts:extent="1rw auto"/>
-      <region tts:extent="auto 1rh"/>
-      <region tts:extent="1rw 1rh"/>
-      <region tts:extent="1rh 1rw"/>
-      <region tts:extent="auto 1%"/>
-      <region tts:extent="1% 1%"/>
+      <region xml:id="r00" tts:extent="auto"/>
+      <region xml:id="r01" tts:extent="contain"/>
+      <region xml:id="r02" tts:extent="cover"/>
+      <region xml:id="r03" tts:extent="auto auto"/>
+      <region xml:id="r04" tts:extent="available available"/>
+      <region xml:id="r05" tts:extent="fitContent fitContent"/>
+      <region xml:id="r06" tts:extent="minContent minContent"/>
+      <region xml:id="r07" tts:extent="maxContent maxContent"/>
+      <region xml:id="r08" tts:extent="1px auto"/>
+      <region xml:id="r09" tts:extent="auto 1px"/>
+      <region xml:id="r10" tts:extent="1px 1px"/>
+      <region xml:id="r11" tts:extent="1c auto"/>
+      <region xml:id="r12" tts:extent="auto 1c"/>
+      <region xml:id="r13" tts:extent="1c 1c"/>
+      <region xml:id="r14" tts:extent="1% auto"/>
+      <region xml:id="r15" tts:extent="1rw auto"/>
+      <region xml:id="r16" tts:extent="auto 1rh"/>
+      <region xml:id="r17" tts:extent="1rw 1rh"/>
+      <region xml:id="r18" tts:extent="1rh 1rw"/>
+      <region xml:id="r19" tts:extent="auto 1%"/>
+      <region xml:id="r20" tts:extent="1% 1%"/>
     </layout>
   </head>
 </tt>

@@ -6,7 +6,7 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="1" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:extent="10.1rw -20.0rh"/>
+      <region xml:id="r1" tts:extent="10.1rw -20.0rh"/>
     </layout>
   </head>
 </tt>

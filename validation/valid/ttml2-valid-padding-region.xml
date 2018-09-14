@@ -8,12 +8,12 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:padding="1px"/>
-      <region tts:padding="1px 2px"/>
-      <region tts:padding="1px 2px 3px"/>
-      <region tts:padding="1px 2px 3px 4px"/>
-      <region tts:padding="1.1c 1.2c 1.3c 1.4c"/>
-      <region tts:padding="1.1c 1.2em 1.3px 1.4%"/>
+      <region xml:id="r1" tts:padding="1px"/>
+      <region xml:id="r2" tts:padding="1px 2px"/>
+      <region xml:id="r3" tts:padding="1px 2px 3px"/>
+      <region xml:id="r4" tts:padding="1px 2px 3px 4px"/>
+      <region xml:id="r5" tts:padding="1.1c 1.2c 1.3c 1.4c"/>
+      <region xml:id="r6" tts:padding="1.1c 1.2em 1.3px 1.4%"/>
     </layout>
   </head>
   <body/>

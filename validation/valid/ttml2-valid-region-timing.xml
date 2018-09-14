@@ -5,13 +5,13 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region begin="1s"/>
-      <region dur="1s"/>
-      <region end="1s"/>
-      <region begin="1s" dur="1s"/>
-      <region begin="1s" end="2s"/>
-      <region dur="1s" end="2s"/>
-      <region begin="1s" dur="1s" end="2s"/>
+      <region xml:id="r1" begin="1s"/>
+      <region xml:id="r2" dur="1s"/>
+      <region xml:id="r3" end="1s"/>
+      <region xml:id="r4" begin="1s" dur="1s"/>
+      <region xml:id="r5" begin="1s" end="2s"/>
+      <region xml:id="r6" dur="1s" end="2s"/>
+      <region xml:id="r7" begin="1s" dur="1s" end="2s"/>
     </layout>
   </head>
 </tt>

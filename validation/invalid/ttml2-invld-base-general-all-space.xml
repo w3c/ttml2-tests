@@ -33,7 +33,7 @@
       <style xml:base="&#x0009;&#x000A;&#x000D;&#x0020;"/>
     </styling>
     <layout xml:base="&#x0009;&#x000A;&#x000D;&#x0020;">
-      <region xml:base="&#x0009;&#x000A;&#x000D;&#x0020;"/>
+      <region xml:id="r1" xml:base="&#x0009;&#x000A;&#x000D;&#x0020;"/>
     </layout>
     <animation xml:base="&#x0009;&#x000A;&#x000D;&#x0020;">
       <animate xml:base="&#x0009;&#x000A;&#x000D;&#x0020;"/>
