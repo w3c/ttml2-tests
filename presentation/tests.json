@@ -164,13 +164,13 @@
     },
     "#base-general": {
         "valid": [
-            { "test": "ttml2-prstn-image-with-base" }
+            { "test": "ttml2-prstn-base-image" }
         ],
         "invalid": []
     },
     "#base-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-image-with-base" }
+            { "test": "ttml2-prstn-base-image" }
         ],
         "invalid": []
     },
