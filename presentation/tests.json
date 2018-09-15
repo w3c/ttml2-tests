@@ -244,6 +244,10 @@
     },
     "#chunk": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
@@ -299,6 +303,10 @@
     },
     "#data": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
@@ -347,16 +355,26 @@
     },
     "#embedded-audio": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" }
         ],
         "invalid": []
     },
     "#embedded-content": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
     "#embedded-data": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
@@ -367,6 +385,8 @@
     },
     "#embedded-image": {
         "valid": [
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
@@ -667,6 +687,8 @@
     },
     "#resources": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
@@ -770,6 +792,10 @@
     },
     "#source": {
         "valid": [
+            { "test": "ttml2-prstn-audio-embedding-chunked" },
+            { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-image-embedding-chunked" },
+            { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
         "invalid": []
     },
