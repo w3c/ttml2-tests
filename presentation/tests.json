@@ -364,6 +364,7 @@
         "valid": [
             { "test": "ttml2-prstn-audio-embedding-chunked" },
             { "test": "ttml2-prstn-audio-embedding-sourced" },
+            { "test": "ttml2-prstn-font-embedding" }
             { "test": "ttml2-prstn-image-embedding-chunked" },
             { "test": "ttml2-prstn-image-embedding-sourced" }
         ],
