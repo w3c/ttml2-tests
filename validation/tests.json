@@ -92,14 +92,12 @@
     },
     "#audio-description": {
         "valid": [
-            { "test": "ttml2-valid-audio-embedding" },
             { "test": "ttml2-valid-audio-in-block" },
             { "test": "ttml2-valid-audio-in-inline" },
             { "test": "ttml2-valid-gain" },
             { "test": "ttml2-valid-pan" }
         ],
         "invalid": [
-            { "test": "ttml2-valid-audio-embedding-bad-resource", "exclude": true },
             { "test": "ttml2-invld-audio-in-block-simple-source-mpeg", "exclude": true },
             { "test": "ttml2-invld-audio-in-inline-simple-source-mpeg", "exclude": true },
             { "test": "ttml2-invld-bad-gain-all-space" },
@@ -114,27 +112,11 @@
     },
     "#audio-speech": {
         "valid": [
-            { "test": "ttml2-valid-audio-embedding" },
-            { "test": "ttml2-valid-audio-in-block" },
-            { "test": "ttml2-valid-audio-in-inline" },
-            { "test": "ttml2-valid-gain" },
-            { "test": "ttml2-valid-pan" },
             { "test": "ttml2-valid-pitch" },
             { "test": "ttml2-valid-speak" },
             { "test": "ttml2-valid-speech" }
         ],
         "invalid": [
-            { "test": "ttml2-valid-audio-embedding-bad-resource", "exclude": true },
-            { "test": "ttml2-invld-audio-in-block-simple-source-mpeg", "exclude": true },
-            { "test": "ttml2-invld-audio-in-inline-simple-source-mpeg", "exclude": true },
-            { "test": "ttml2-invld-bad-gain-all-space" },
-            { "test": "ttml2-invld-bad-gain-empty" },
-            { "test": "ttml2-invld-bad-gain-real-syntax" },
-            { "test": "ttml2-invld-bad-gain-unknown-keyword" },
-            { "test": "ttml2-invld-bad-pan-all-space" },
-            { "test": "ttml2-invld-bad-pan-empty" },
-            { "test": "ttml2-invld-bad-pan-real-syntax" },
-            { "test": "ttml2-invld-bad-pan-unknown-keyword" },
             { "test": "ttml2-invld-bad-pitch-all-space" },
             { "test": "ttml2-invld-bad-pitch-empty" },
             { "test": "ttml2-invld-bad-pitch-real-syntax" },
@@ -246,43 +228,6 @@
             { "test": "ttml2-invld-bad-background-clip-unknown-keyword" }
         ]
     },
-    "#backgroundColor": {
-        "valid": [
-            { "test": "ttml2-valid-background-color" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-background-color-all-space" },
-            { "test": "ttml2-invld-bad-background-color-empty" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-bad-component-syntax" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-extra-component" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-missing-component" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-negative-component" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-out-of-range-component" },
-            { "test": "ttml2-invld-bad-background-color-rgb-function-padded-component" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-extra-digit" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-garbage-after-digits" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-missing-all-digits-garbage-after-hash" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-missing-all-digits-hash-only" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-missing-digit" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-non-digit" },
-            { "test": "ttml2-invld-bad-background-color-rgb-hash-space-after-hash" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-bad-component-syntax" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-extra-component" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-missing-component" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-negative-component" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-out-of-range-component" },
-            { "test": "ttml2-invld-bad-background-color-rgba-function-padded-component" },
-            { "test": "ttml2-invld-bad-background-color-rgba-hash-extra-digit" },
-            { "test": "ttml2-invld-bad-background-color-rgba-hash-missing-digit" },
-            { "test": "ttml2-invld-bad-background-color-rgba-hash-non-digit" },
-            { "test": "ttml2-invld-bad-background-color-space-padded-named-color" },
-            { "test": "ttml2-invld-bad-background-color-space-padded-rgb-function" },
-            { "test": "ttml2-invld-bad-background-color-space-padded-rgb-hash" },
-            { "test": "ttml2-invld-bad-background-color-space-padded-rgba-function" },
-            { "test": "ttml2-invld-bad-background-color-space-padded-rgba-hash" },
-            { "test": "ttml2-invld-bad-background-color-unknown-named-color" }
-        ]
-    },
     "#backgroundExtent": {
         "valid": [
             { "test": "ttml2-valid-background-extent" }
@@ -331,14 +276,6 @@
             { "test": "ttml2-invld-bad-background-repeat-all-space" },
             { "test": "ttml2-invld-bad-background-repeat-empty" },
             { "test": "ttml2-invld-bad-background-repeat-unknown-keyword" }
-        ]
-    },
-    "#base": {
-        "valid": [
-            { "test": "ttml2-valid-base", "exclude": true }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-base-all-space", "exclude": true }
         ]
     },
     "#base-general": {
@@ -621,16 +558,6 @@
             { "test": "ttml2-invld-disparity-unknown-unit" }
         ]
     },
-    "#display": {
-        "valid": [
-            { "test": "ttml2-valid-display-1" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-display-all-space" },
-            { "test": "ttml2-invld-bad-display-empty" },
-            { "test": "ttml2-invld-bad-display-unknown-keyword" }
-        ]
-    },
     "#display-inlineBlock": {
         "valid": [
             { "test": "ttml2-valid-display-inline-block" }
@@ -652,17 +579,6 @@
             { "test": "ttml2-invld-bad-display-unknown-keyword" }
         ]
     },
-    "#displayAlign": {
-        "valid": [
-            { "test": "ttml2-valid-display-align-1" },
-            { "test": "ttml2-valid-display-align-1-region" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-display-align-all-space" },
-            { "test": "ttml2-invld-bad-display-align-empty" },
-            { "test": "ttml2-invld-bad-display-align-unknown-keyword" }
-        ]
-    },
     "#displayAlign-block": {
         "valid": [
             { "test": "ttml2-valid-display-align-2-block" }
@@ -672,12 +588,6 @@
     "#displayAlign-justify": {
         "valid": [
             { "test": "ttml2-valid-display-align-justify" }
-        ],
-        "invalid": []
-    },
-    "#displayAlign-region": {
-        "valid": [
-            { "test": "ttml2-valid-display-align-1-region" }
         ],
         "invalid": []
     },
@@ -767,12 +677,6 @@
         "invalid": [
             { "test": "ttml2-invld-image-embedding-bad-resource", "exclude": true }
         ]
-    },
-    "#extent-auto": {
-        "valid": [
-            { "test": "ttml2-valid-extent-1-root-auto" }
-        ],
-        "invalid": []
     },
     "#extent-auto-version-2": {
         "valid": [
@@ -1105,17 +1009,6 @@
             { "test": "ttml2-invld-bad-opacity-unknown-keyword" }
         ]
     },
-    "#opacity-region": {
-        "valid": [
-            { "test": "ttml2-valid-opacity-out-of-range" },
-            { "test": "ttml2-valid-opacity-region" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-opacity-all-space" },
-            { "test": "ttml2-invld-bad-opacity-empty" },
-            { "test": "ttml2-invld-bad-opacity-unknown-keyword" }
-        ]
-    },
     "#opacity-version-2": {
         "valid": [
             { "test": "ttml2-valid-opacity-block" },
@@ -1158,22 +1051,6 @@
             { "test": "ttml2-invld-bad-padding-negative-before-and-after" },
             { "test": "ttml2-invld-bad-padding-negative-start-and-end" },
             { "test": "ttml2-invld-bad-padding-colon-delimiter-sans-whitespace" },
-            { "test": "ttml2-invld-bad-padding-unknown-unit" }
-        ]
-    },
-    "#padding-region": {
-        "valid": [
-            { "test": "ttml2-valid-padding-region" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-padding-all-space" },
-            { "test": "ttml2-invld-bad-padding-colon-delimiter-sans-whitespace" },
-            { "test": "ttml2-invld-bad-padding-comma-delimiter-with-whitespace" },
-            { "test": "ttml2-invld-bad-padding-empty" },
-            { "test": "ttml2-invld-bad-padding-extra-length" },
-            { "test": "ttml2-invld-bad-padding-missing-unit" },
-            { "test": "ttml2-invld-bad-padding-negative-before-and-after" },
-            { "test": "ttml2-invld-bad-padding-negative-start-and-end" },
             { "test": "ttml2-invld-bad-padding-unknown-unit" }
         ]
     },
@@ -1502,12 +1379,6 @@
             { "test": "ttml2-invld-region-inline-timing" }
         ]
     },
-    "#region-timing": {
-        "valid": [
-            { "test": "ttml2-valid-region-timing" }
-        ],
-        "invalid": []
-    },
     "#resources": {
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
@@ -1619,14 +1490,6 @@
             { "test": "ttml2-invld-bad-ruby-reserve-unknown-keyword" }
         ]
     },
-    "#set": {
-        "valid": [
-            { "test": "ttml2-valid-set" }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-set-animation-style-value" }
-        ]
-    },
     "#set-fill": {
         "valid": [
             { "test": "ttml2-valid-set-fill" }
@@ -1668,7 +1531,7 @@
             { "test": "ttml2-valid-image-in-inline-png" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-base-general-all-space" },
+            { "test": "ttml2-invld-base-general-all-space" }
         ]
     },
     "#speak": {
@@ -1687,16 +1550,6 @@
         ],
         "invalid": []
     },
-    "#textAlign-absolute": {
-        "valid": [
-            { "test": "ttml2-valid-text-align-absolute", "exclude": true }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-text-align-all-space", "exclude": true },
-            { "test": "ttml2-invld-bad-text-align-empty", "exclude": true },
-            { "test": "ttml2-invld-bad-text-align-unknown-keyword", "exclude": true }
-        ]
-    },
     "#textAlign-justify": {
         "valid": [
             { "test": "ttml2-valid-text-align-justify" }
@@ -1705,16 +1558,6 @@
             { "test": "ttml2-invld-bad-text-align-all-space" },
             { "test": "ttml2-invld-bad-text-align-empty" },
             { "test": "ttml2-invld-bad-text-align-unknown-keyword" }
-        ]
-    },
-    "#textAlign-relative": {
-        "valid": [
-            { "test": "ttml2-valid-text-align-justify", "exclude": true }
-        ],
-        "invalid": [
-            { "test": "ttml2-invld-bad-text-align-all-space", "exclude": true },
-            { "test": "ttml2-invld-bad-text-align-empty", "exclude": true },
-            { "test": "ttml2-invld-bad-text-align-unknown-keyword", "exclude": true }
         ]
     },
     "#textAlign-version-2": {
