@@ -380,6 +380,7 @@
     },
     "#embedded-font": {
         "valid": [
+            { "test": "ttml2-prstn-font-embedding" }
         ],
         "invalid": []
     },
@@ -446,6 +447,7 @@
     },
     "#font": {
         "valid": [
+            { "test": "ttml2-prstn-font-embedding" }
         ],
         "invalid": []
     },
