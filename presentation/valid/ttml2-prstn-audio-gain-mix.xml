@@ -16,6 +16,8 @@
           <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-normal-volume.mp3" type="audio/mp3"/>
           This is normal volume</span>
       </p>
+    </div>
+    <div>
       <p>This text should not result in any audio.</p>
     </div>
   </body>

@@ -16,6 +16,8 @@
           <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-right.mp3" type="audio/mp3" tta:pan="1"/>
           This is normal volume</span>
       </p>
+    </div>
+    <div>
       <p>This text should not result in any audio.</p>
     </div>
   </body>
