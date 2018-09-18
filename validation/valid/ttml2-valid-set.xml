@@ -14,7 +14,7 @@
   <body>
     <set xml:id="a2" tts:display="auto"/>
     <div>
-      <set xml:id="a3" tts:writingMode="tb"/>
+      <set xml:id="a3" tts:opacity="0.8"/>
       <p>
         <set xml:id="a4" tts:visibility="hidden"/>
         <span><set xml:id="a5" tts:fontSize="20px"/>Text 1</span>

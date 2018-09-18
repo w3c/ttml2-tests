@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- PENDING for 2e - update to @range syntax required -->
 <!-- invalid - tt:font - @range - wildcard range - too many wildcards - at most five '?' wildcards can be present -->
 <tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"

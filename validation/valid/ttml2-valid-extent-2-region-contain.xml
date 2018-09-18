@@ -8,7 +8,7 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
     <layout>
-      <region tts:extent="contain"/>
+      <region xml:id="r1" tts:extent="contain"/>
     </layout>
   </head>
 </tt>
