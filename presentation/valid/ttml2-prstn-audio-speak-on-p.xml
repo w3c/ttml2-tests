@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio">
+  <head>
+  </head>
+  <body>
+    <div>
+      <p begin="0s" end="3s" tta:speak="normal">
+        <span>This sentence is spoken normally.</span>
+      </p>        
+      <p begin="3s" end="6s" tta:speak="slow">
+        <span>This sentence is spoken slowly.</span>
+      </p>
+      <p begin="6s" end="9s" tta:speak="fast">
+        <span>This sentence is spoken quickly.</span>
+      </p>
+    </div>
+  </body>
+</tt>
+
+

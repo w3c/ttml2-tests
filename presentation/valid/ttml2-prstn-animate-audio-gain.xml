@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+  </head>
+  <body>
+    <metadata>
+      <ttm:desc>This test plays a 440Hz tone. Between 1s and 6s the gain is reduced by 0.2 each second.</ttm:desc>
+    </metadata>
+    <div>
+      <p>
+        <span>
+          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/wav"/>
+          <animate begin="0s" end="6s" tta:gain="1;0.8;0.6;0.4;0.2;0"/>
+          This tone reduces in volume each second.</span>
+      </p>
+    </div>
+  </body>
+</tt>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+  </head>
+  <body>
+    <metadata>
+      <ttm:desc>This test plays a 440Hz tone. Between 0s and 2s the pan varies from left to right in two steps.</ttm:desc>
+    </metadata>
+    <div>
+      <p>
+        <span>
+          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/wav"/>
+          <animate begin="0s" end="2s" tta:gain="-1;0;1"/>
+          This tone pans from left to right between 0s and 2s.</span>
+      </p>
+    </div>
+  </body>
+</tt>
+
