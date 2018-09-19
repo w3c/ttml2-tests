@@ -10,15 +10,15 @@
   </head>
   <body>
     <div>
-      <p begin="1s" end="2s">
+      <p begin="1s" end="3s">
         <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-normal-volume.mp3" type="audio/mpeg"/>
         This is normal volume
       </p>
-      <p begin="3s" end="4s">
+      <p begin="4s" end="6s">
         <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-half-volume.mp3" type="audio/mpeg" tta:gain="0.25"/>
         This is half volume
       </p>
-      <p begin="5s" end="6s">
+      <p begin="7s" end="9s">
         <audio src="../resources/audio/ttml2-prstn-audio-gain-this-is-muted.mp3" type="audio/mpeg" tta:gain="0"/>
         This is muted
       </p>
@@ -26,4 +26,3 @@
     </div>
   </body>
 </tt>
-

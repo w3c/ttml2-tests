@@ -10,19 +10,18 @@
   </head>
   <body>
     <div>
-      <p begin="0s" end="2s">
+      <p begin="1s" end="3s">
       <audio src="../resources/audio/ttml2-prstn-audio-pan-center-audio.mp3" type="audio/mpeg" tta:pan="0"/>
         <span>Center audio</span>
       </p>        
-      <p begin="2s" end="4s">
+      <p begin="4s" end="6s">
         <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-left.mp3" type="audio/mpeg" tta:pan="-1"/>
         <span>Audio only on left</span>
       </p>
-      <p begin="4s" end="6s">
+      <p begin="7s" end="9s">
         <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-right.mp3" type="audio/mpeg" tta:pan="1"/>
         <span>Audio only on right</span>
       </p>
     </div>
   </body>
 </tt>
-
