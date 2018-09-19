@@ -332,6 +332,7 @@
     },
     "#disparity": {
         "valid": [
+            { "test": "ttml2-prstn-disparity" }
         ],
         "invalid": []
     },
