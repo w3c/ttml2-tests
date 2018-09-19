@@ -574,6 +574,7 @@
     },
     "#luminanceGain": {
         "valid": [
+            { "test": "ttml2-prstn-luminance-gain" }
         ],
         "invalid": []
     },
