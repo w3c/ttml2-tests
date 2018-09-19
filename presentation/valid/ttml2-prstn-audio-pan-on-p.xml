@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
-    xmlns:tts="http://www.w3.org/ns/ttml#styling"
-    xmlns:tta="http://www.w3.org/ns/ttml#audio">
+<tt xml:lang="en"
+    xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+    xmlns:tta="http://www.w3.org/ns/ttml#audio"
+    ttp:profile="ttml2-presentation"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <head>
   </head>
   <body>
     <div>
       <p begin="0s" end="2s" tta:pan="0">
-      <audio src="../resources/audio/ttml2-prstn-audio-pan-center-audio.mp3" type="audio/mp3"/>
+      <audio src="../resources/audio/ttml2-prstn-audio-pan-center-audio.mp3" type="audio/mpeg"/>
         <span>Center audio</span>
       </p>        
       <p begin="2s" end="4s" tta:pan="-1">
-        <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-left.mp3" type="audio/mp3"/>
+        <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-left.mp3" type="audio/mpeg"/>
         <span>Audio only on left</span>
       </p>
       <p begin="4s" end="6s" tta:pan="1">
-        <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-right.mp3" type="audio/mp3"/>
+        <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-right.mp3" type="audio/mpeg"/>
         <span>Audio only on right</span>
       </p>
     </div>
