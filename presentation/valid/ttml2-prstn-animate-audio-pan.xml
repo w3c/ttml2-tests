@@ -16,7 +16,7 @@
       <p>
         <span>
           <animate begin="0s" end="2s" tta:gain="-1;0;1"/>
-          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/wav"/>
+          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/vnd.wave"/>
           This tone pans from left to right between 0s and 2s.</span>
       </p>
     </div>
