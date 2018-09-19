@@ -13,7 +13,7 @@
       <metadata>
         <ttm:desc>This test plays a 440Hz tone. Between 1s and 2s the sound is panned to the left and an audio file is played panned to the right.</ttm:desc>
       </metadata>
-      <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/wav"/>
+      <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/vnd.wave"/>
       <p begin="1s" end="2s" tta:pan="-1">
         <span>
           <audio src="../resources/audio/ttml2-prstn-audio-pan-audio-only-on-right.mp3" type="audio/mpeg" tta:pan="1"/>

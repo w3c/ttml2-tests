@@ -16,7 +16,7 @@
       <p>
         <span>
           <animate begin="0s" end="6s" tta:gain="1;0.8;0.6;0.4;0.2;0"/>
-          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/wav"/>
+          <audio src="../resources/audio/ttml2-prstn-audio-gain-440hz-tone.wav" type="audio/vnd.wave"/>
           This tone reduces in volume each second.</span>
       </p>
     </div>

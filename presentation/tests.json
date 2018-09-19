@@ -64,16 +64,36 @@
     },
     "#audio": {
         "valid": [
+            { "test": "ttml2-prstn-animate-audio-gain" },
+            { "test": "ttml2-prstn-animate-audio-pan" },
+            { "test": "ttml2-prstn-audio-gain-mix" },
+            { "test": "ttml2-prstn-audio-gain-on-audio" },
+            { "test": "ttml2-prstn-audio-gain-on-p" },
+            { "test": "ttml2-prstn-audio-pan-mix" },
+            { "test": "ttml2-prstn-audio-pan-on-audio" },
+            { "test": "ttml2-prstn-audio-pan-on-p" }
         ],
         "invalid": []
     },
     "#audio-description": {
         "valid": [
+            { "test": "ttml2-prstn-animate-audio-gain" },
+            { "test": "ttml2-prstn-animate-audio-pan" },
+            { "test": "ttml2-prstn-audio-gain-mix" },
+            { "test": "ttml2-prstn-audio-gain-on-audio" },
+            { "test": "ttml2-prstn-audio-gain-on-p" },
+            { "test": "ttml2-prstn-audio-pan-mix" },
+            { "test": "ttml2-prstn-audio-pan-on-audio" },
+            { "test": "ttml2-prstn-audio-pan-on-p" }
         ],
         "invalid": []
     },
     "#audio-speech": {
         "valid": [
+            { "test": "ttml2-prstn-audio-pitch-on-p" },
+            { "test": "ttml2-prstn-audio-pitch-on-span" },
+            { "test": "ttml2-prstn-audio-speak-on-p" },
+            { "test": "ttml2-prstn-audio-speak-on-span" }
         ],
         "invalid": []
     },
@@ -486,6 +506,9 @@
     },
     "#gain": {
         "valid": [
+            { "test": "ttml2-prstn-audio-gain-mix" },
+            { "test": "ttml2-prstn-audio-gain-on-audio" },
+            { "test": "ttml2-prstn-audio-gain-on-p" }
         ],
         "invalid": []
     },
@@ -606,6 +629,9 @@
     },
     "#pan": {
         "valid": [
+            { "test": "ttml2-prstn-audio-pan-mix" },
+            { "test": "ttml2-prstn-audio-pan-on-audio" },
+            { "test": "ttml2-prstn-audio-pan-on-p" }
         ],
         "invalid": []
     },
@@ -623,6 +649,8 @@
     },
     "#pitch": {
         "valid": [
+            { "test": "ttml2-prstn-audio-pitch-on-p" },
+            { "test": "ttml2-prstn-audio-pitch-on-span" }
         ],
         "invalid": []
     },
@@ -804,11 +832,17 @@
     },
     "#speak": {
         "valid": [
+            { "test": "ttml2-prstn-audio-speak-on-p" },
+            { "test": "ttml2-prstn-audio-speak-on-span" }
         ],
         "invalid": []
     },
     "#speech": {
         "valid": [
+            { "test": "ttml2-prstn-audio-pitch-on-p" },
+            { "test": "ttml2-prstn-audio-pitch-on-span" },
+            { "test": "ttml2-prstn-audio-speak-on-p" },
+            { "test": "ttml2-prstn-audio-speak-on-span" }
         ],
         "invalid": []
     },
