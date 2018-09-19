@@ -578,6 +578,7 @@
   </head>
   <body style="sBody">
     <div region="area1" begin="0s" end="1s">
+      <audio src="#audio1"/>
       <p>Το όνομά μου είναι Οὖτις</p>
     </div>
   </body>
