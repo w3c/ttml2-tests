@@ -338,11 +338,13 @@
     },
     "#display-inlineBlock": {
         "valid": [
+            { "test": "ttml2-prstn-display-inline-block" }
         ],
         "invalid": []
     },
     "#display-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-display-inline-block" }
         ],
         "invalid": []
     },
