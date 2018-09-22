@@ -417,7 +417,8 @@
     },
     "#extent-auto-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
@@ -433,7 +434,9 @@
     },
     "#extent-full-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-region-root-container-relative" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
@@ -445,6 +448,7 @@
     },
     "#extent-length-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-root-container-relative" }
         ],
         "invalid": []
     },
@@ -455,17 +459,21 @@
     },
     "#extent-region-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-root-container-relative" }
         ],
         "invalid": []
     },
     "#extent-root-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
     "#extent-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-region-root-container-relative" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
