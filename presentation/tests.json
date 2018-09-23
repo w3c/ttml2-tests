@@ -66,6 +66,7 @@
         "valid": [
             { "test": "ttml2-prstn-animate-audio-gain" },
             { "test": "ttml2-prstn-animate-audio-pan" },
+            { "test": "ttml2-prstn-audio-clip-begin-end" },
             { "test": "ttml2-prstn-audio-gain-mix" },
             { "test": "ttml2-prstn-audio-gain-on-audio" },
             { "test": "ttml2-prstn-audio-gain-on-p" },
@@ -79,6 +80,7 @@
         "valid": [
             { "test": "ttml2-prstn-animate-audio-gain" },
             { "test": "ttml2-prstn-animate-audio-pan" },
+            { "test": "ttml2-prstn-audio-clip-begin-end" },
             { "test": "ttml2-prstn-audio-gain-mix" },
             { "test": "ttml2-prstn-audio-gain-on-audio" },
             { "test": "ttml2-prstn-audio-gain-on-p" },
