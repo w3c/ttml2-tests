@@ -738,6 +738,7 @@
     },
     "#region-implied-animation": {
         "valid": [
+            { "test": "ttml2-prstn-region-implied-animation-position" }
         ],
         "invalid": []
     },
