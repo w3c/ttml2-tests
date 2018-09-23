@@ -439,6 +439,10 @@
             { "test": "ttml2-prstn-extent-image" },
             { "test": "ttml2-prstn-extent-image-contain" },
             { "test": "ttml2-prstn-extent-image-cover" },
+            { "test": "ttml2-prstn-extent-region-measure-auto" },
+            { "test": "ttml2-prstn-extent-region-measure-fit-content" },
+            { "test": "ttml2-prstn-extent-region-measure-max-content" },
+            { "test": "ttml2-prstn-extent-region-measure-min-content" },
             { "test": "ttml2-prstn-extent-region-root-container-relative" },
             { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
@@ -458,6 +462,10 @@
     },
     "#extent-measure": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-measure-auto" },
+            { "test": "ttml2-prstn-extent-region-measure-fit-content" },
+            { "test": "ttml2-prstn-extent-region-measure-max-content" },
+            { "test": "ttml2-prstn-extent-region-measure-min-content" }
         ],
         "invalid": []
     },
