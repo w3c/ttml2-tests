@@ -743,6 +743,7 @@
     },
     "#region-inline": {
         "valid": [
+            { "test": "ttml2-prstn-region-inline" }
         ],
         "invalid": []
     },
