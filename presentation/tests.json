@@ -417,23 +417,34 @@
     },
     "#extent-auto-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
     "#extent-contain": {
         "valid": [
+            { "test": "ttml2-prstn-extent-image-contain" }
         ],
         "invalid": []
     },
     "#extent-cover": {
         "valid": [
+            { "test": "ttml2-prstn-extent-image-cover" }
         ],
         "invalid": []
     },
     "#extent-full-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-image-contain" },
+            { "test": "ttml2-prstn-extent-image-cover" },
+            { "test": "ttml2-prstn-extent-region-measure-auto" },
+            { "test": "ttml2-prstn-extent-region-measure-fit-content" },
+            { "test": "ttml2-prstn-extent-region-measure-max-content" },
+            { "test": "ttml2-prstn-extent-region-measure-min-content" },
+            { "test": "ttml2-prstn-extent-region-root-container-relative" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
@@ -445,27 +456,36 @@
     },
     "#extent-length-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-root-container-relative" }
         ],
         "invalid": []
     },
     "#extent-measure": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-measure-auto" },
+            { "test": "ttml2-prstn-extent-region-measure-fit-content" },
+            { "test": "ttml2-prstn-extent-region-measure-max-content" },
+            { "test": "ttml2-prstn-extent-region-measure-min-content" }
         ],
         "invalid": []
     },
     "#extent-region-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-region-root-container-relative" }
         ],
         "invalid": []
     },
     "#extent-root-version-2": {
         "valid": [
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
     "#extent-version-2": {
         "valid": [
-            { "test": "ttml2-prstn-extent-image" }
+            { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-region-root-container-relative" },
+            { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
         "invalid": []
     },
