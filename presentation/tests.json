@@ -259,6 +259,8 @@
     },
     "#bpd": {
         "valid": [
+            { "test": "ttml2-prstn-bpd-inline-block" },
+            { "test": "ttml2-prstn-display-align-block" }
         ],
         "invalid": []
     },
@@ -306,6 +308,9 @@
     },
     "#content-sizing": {
         "valid": [
+            { "test": "ttml2-prstn-bpd-inline-block" },
+            { "test": "ttml2-prstn-display-align-block" },
+            { "test": "ttml2-prstn-ipd-inline-block" }
         ],
         "invalid": []
     },
@@ -556,6 +561,7 @@
     },
     "#ipd": {
         "valid": [
+            { "test": "ttml2-prstn-ipd-inline-block" }
         ],
         "invalid": []
     },
