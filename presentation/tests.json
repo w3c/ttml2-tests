@@ -940,6 +940,7 @@
     },
     "#time-wall-clock": {
         "valid": [
+            { "test": "ttml2-prstn-time-wall-clock" }
         ],
         "invalid": []
     },
