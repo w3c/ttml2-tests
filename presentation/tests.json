@@ -424,17 +424,21 @@
     },
     "#extent-contain": {
         "valid": [
+            { "test": "ttml2-prstn-extent-image-contain" }
         ],
         "invalid": []
     },
     "#extent-cover": {
         "valid": [
+            { "test": "ttml2-prstn-extent-image-cover" }
         ],
         "invalid": []
     },
     "#extent-full-version-2": {
         "valid": [
             { "test": "ttml2-prstn-extent-image" },
+            { "test": "ttml2-prstn-extent-image-contain" },
+            { "test": "ttml2-prstn-extent-image-cover" },
             { "test": "ttml2-prstn-extent-region-root-container-relative" },
             { "test": "ttml2-prstn-extent-root-auto-with-dar" }
         ],
