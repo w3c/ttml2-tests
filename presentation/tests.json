@@ -759,21 +759,21 @@
     },
     "#ruby": {
         "valid": [
-            { "test": "ttml2-prsnt-ruby-imsc11-1" },
-            { "test": "ttml2-prsnt-ruby-imsc11-2" },
-            { "test": "ttml2-prsnt-ruby-imsc11-3" },
-            { "test": "ttml2-prsnt-ruby-imsc11-4" },
-            { "test": "ttml2-prsnt-ruby-imsc11-5" }
+            { "test": "ttml2-prstn-ruby-imsc11-1" },
+            { "test": "ttml2-prstn-ruby-imsc11-2" },
+            { "test": "ttml2-prstn-ruby-imsc11-3" },
+            { "test": "ttml2-prstn-ruby-imsc11-4" },
+            { "test": "ttml2-prstn-ruby-imsc11-5" }
         ],
         "invalid": []
     },
     "#ruby-full": {
         "valid": [
-            { "test": "ttml2-prsnt-ruby-imsc11-1" },
-            { "test": "ttml2-prsnt-ruby-imsc11-2" },
-            { "test": "ttml2-prsnt-ruby-imsc11-3" },
-            { "test": "ttml2-prsnt-ruby-imsc11-4" },
-            { "test": "ttml2-prsnt-ruby-imsc11-5" },
+            { "test": "ttml2-prstn-ruby-imsc11-1" },
+            { "test": "ttml2-prstn-ruby-imsc11-2" },
+            { "test": "ttml2-prstn-ruby-imsc11-3" },
+            { "test": "ttml2-prstn-ruby-imsc11-4" },
+            { "test": "ttml2-prstn-ruby-imsc11-5" },
             { "test": "ttml2-prstn-ruby-align-imsc11-1" },
             { "test": "ttml2-prstn-ruby-align-imsc11-2" },
             { "test": "ttml2-prstn-ruby-align-imsc11-3" },
