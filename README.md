@@ -4,6 +4,8 @@ The TTML Test Suites consists of a validation test suite and a presentation test
 
 The tests found in these test suites are limited to functionality and constraints thereof that derive directly from normative text in the TTML2 specification. While additional tests that go beyond the normative specification text might be useful, especially for interoperability testing, such tests are excluded here in principle.
 
+This test suite is referenced by the [TTML2 Implementation Report](https://www.w3.org/wiki/TimedText/TTML2ImplementationReport).
+
 ## Validation Test Suite
 
 The validation test suite is found under the `validation` directory, and is divided into two parts: (1) tests for valid content (validity tests) and (2) tests for invalid content (invalidity tests). The result of each test can be characterized as PASS or FAIL.
