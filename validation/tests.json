@@ -552,10 +552,10 @@
             { "test": "ttml2-valid-disparity" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-disparity-all-space" },
-            { "test": "ttml2-invld-disparity-empty" },
-            { "test": "ttml2-invld-disparity-extra-length" },
-            { "test": "ttml2-invld-disparity-unknown-unit" }
+            { "test": "ttml2-invld-bad-disparity-all-space" },
+            { "test": "ttml2-invld-bad-disparity-empty" },
+            { "test": "ttml2-invld-bad-disparity-extra-length" },
+            { "test": "ttml2-invld-bad-disparity-unknown-unit" }
         ]
     },
     "#display-inlineBlock": {
@@ -982,9 +982,9 @@
             { "test": "ttml2-valid-metadata-item-qualified" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-metadata-item-named-all-space" },
-            { "test": "ttml2-invld-metadata-item-named-empty" },
-            { "test": "ttml2-invld-metadata-item-named-qualified-missing-binding" }
+            { "test": "ttml2-invld-metadata-item-all-space" },
+            { "test": "ttml2-invld-metadata-item-empty" },
+            { "test": "ttml2-invld-metadata-item-qualified-missing-binding" }
         ]
     },
     "#opacity-block": {
@@ -1431,7 +1431,7 @@
             { "test": "ttml2-invld-bad-ruby-position-unknown-keyword" },
             { "test": "ttml2-invld-bad-ruby-reserve-all-space" },
             { "test": "ttml2-invld-bad-ruby-reserve-empty" },
-            { "test": "ttml2-invld-bad-ruby-reserve- negative" },
+            { "test": "ttml2-invld-bad-ruby-reserve-negative" },
             { "test": "ttml2-invld-bad-ruby-reserve-unknown-keyword" }
         ]
     },
