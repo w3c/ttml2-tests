@@ -26,3 +26,6 @@ The presentation test suite is found under the `presentation` directory, and is 
 
 For tests having primarily visual presentation semantics, each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`, which contains the output of a particular reference implementation (TTPE). Each such _reference archive_ contains a manifest file and one or more image frames represented in some image format. In the present form of the reference archives, the image format is `image/svg+xml`. These image frames should **not** be construed as normative, but merely serve as a possible reference image for performing (human visual) comparisons of expected output.
 
+## Pending Tests
+
+Tests located in the `pending` directory are under consideration for future addition to the test suite. They are not considered part of the formal test suite at this time; furthermore, there is no (fixed) schedule for their addition (or not) to the test suite.
