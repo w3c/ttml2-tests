@@ -18,13 +18,19 @@ A validator is considered to **_strictly pass_** the test suite if it does not r
 
 For the purpose of reporting an implementation of the validation function for a specific (designated) feature, the implementation must strictly pass all tests for that feature; however, it is not required to fully pass all tests for that feature since the TTML2 specification does not require a validator to detect all possibile invalidities, about which see [validate document](https://www.w3.org/TR/ttml2/#semantics-procedure-validate-document).
 
-A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each new TTML2 feature designator, lists validity and invalidity tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration.
+A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each new TTML2 feature designator, lists validity and invalidity tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration. We refer to this mapping file as the *validation test manifest*.
 
 ## Presentation Test Suite
 
 The presentation test suite is found under the `presentation` directory, and is divided into two parts: (1) tests for presenting valid content and (2) tests for presenting invalid content.
 
+A mapping from (designated) features to specific tests is found in `presentation/tests.json`, which, for each new TTML2 feature designator, lists presentation tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration. We refer to this mapping file as the *presentation test manifest*.
+
 For tests having primarily visual presentation semantics, each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`, which contains the output of a particular reference implementation (TTPE). Each such _reference archive_ contains a manifest file and one or more image frames represented in some image format. In the present form of the reference archives, the image format is `image/svg+xml`. These image frames should **not** be construed as normative, but merely serve as a possible reference image for performing (human visual) comparisons of expected output.
+
+## Excluded Tests
+
+As noted above, the two (validation and presentation test manifests employ an *exclusion* flag to denote that a test is excluded from exit criteria consideration. The tests marked as excluded (presently) consist of tests that may be useful for testing implementations, but are not necessarily derived from normative specification language, as well as tests for which there is some question as to whether they correctly represent normative specification requirements. In both cases, these tests may, but need not be exercised by implementations, and there is no expectation that the results from such tests will be reported by implementors.
 
 ## Pending Tests
 
