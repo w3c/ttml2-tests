@@ -30,7 +30,7 @@ For tests having primarily visual presentation semantics, each presentation test
 
 ## Excluded Tests
 
-As noted above, the two (validation and presentation test manifests employ an *exclusion* flag to denote that a test is excluded from exit criteria consideration. The tests marked as excluded (presently) consist of tests that may be useful for testing implementations, but are not necessarily derived from normative specification language, as well as tests for which there is some question as to whether they correctly represent normative specification requirements. In both cases, these tests may, but need not be exercised by implementations, and there is no expectation that the results from such tests will be reported by implementors.
+As noted above, the two (validation and presentation) test manifests employ an *exclusion* flag to denote that a test is excluded from exit criteria consideration. The tests marked as excluded (presently) consist of tests that may be useful for testing implementations, but are not necessarily derived from normative specification language, as well as tests for which there is some question as to whether they correctly represent normative specification requirements. In both cases, these tests may, but need not be exercised by implementations, and there is no expectation that the results from such tests will be reported by implementors.
 
 ## Pending Tests
 
