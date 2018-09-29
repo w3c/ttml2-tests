@@ -35,3 +35,7 @@ As noted above, the two (validation and presentation) test manifests employ an *
 ## Pending Tests
 
 Tests located in the `pending` directory are under consideration for future addition to the test suite. They are not considered part of the formal test suite at this time; furthermore, there is no (fixed) schedule for their addition (or not) to the test suite.
+
+## Test Annotation Attributes
+
+In addition to standard, TTML2 defined attributes, each test contains certain tool-specific annotation attributes in a namespace associated with the `ttva` prefix. These attributes are used by a certain reference implementation, [TTV](https://github.com/skynav/ttt), to facilitate the testing process. Note that TTML2 content processing requires processors to prune (ignore) unrecognized namespace qualified attributes. See [Annotations](https://github.com/skynav/ttt/tree/master/ttt-ttv#annotations) for further information on their usage.
