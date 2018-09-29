@@ -1,10 +1,8 @@
 # TTML2 Test Suites
 
-The TTML Test Suites consists of a validation test suite and a presentation test suite. The purpose of these test suites is to demonstrate adequate implementation experience of each (designated) feature of the TTML2 specification as documented by the TTML2 Implementation Report. An ancillary purpose is to promote ineroperability between implementations.
+The TTML Test Suites consists of a validation test suite and a presentation test suite. The purpose of these test suites is to demonstrate adequate implementation experience of each (designated) feature of the TTML2 specification as documented by the [TTML2 Implementation Report](https://www.w3.org/wiki/TimedText/TTML2ImplementationReport). An ancillary purpose is to promote ineroperability between implementations.
 
-The tests found in these test suites are limited to functionality and constraints thereof that derive directly from normative text in the TTML2 specification. While additional tests that go beyond the normative specification text might be useful, especially for interoperability testing, such tests are excluded here in principle.
-
-This test suite is referenced by the [TTML2 Implementation Report](https://www.w3.org/wiki/TimedText/TTML2ImplementationReport).
+The tests found in these test suites are limited to functionality and constraints thereof that derive directly from normative text in the [TTML2 Specification](https://www.w3.org/TR/ttml2/). While additional tests that go beyond the normative specification text might be useful, especially for interoperability testing, such tests are excluded here in principle.
 
 ## Validation Test Suite
 
