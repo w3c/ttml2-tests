@@ -786,6 +786,7 @@
             { "test": "ttml2-valid-font-embedding" }
         ],
         "invalid": [
+            { "test": "ttml2-invld-font-embedding-family", "since": "2e" },
             { "test": "ttml2-invld-font-embedding-range-interval-extra-digit" },
             { "test": "ttml2-invld-font-embedding-range-single-extra-digit" },
             { "test": "ttml2-invld-font-embedding-range-unknown-keyword" },
