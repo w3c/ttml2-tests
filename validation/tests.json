@@ -999,6 +999,17 @@
             { "test": "ttml2-invld-bad-opacity-unknown-keyword" }
         ]
     },
+    "#opacity-image": {
+        "valid": [
+            { "test": "ttml2-valid-opacity-image-block", "since": "2e" },
+            { "test": "ttml2-valid-opacity-image-inline", "since": "2e" }
+        ],
+        "invalid": [
+            { "test": "ttml2-invld-bad-opacity-all-space" },
+            { "test": "ttml2-invld-bad-opacity-empty" },
+            { "test": "ttml2-invld-bad-opacity-unknown-keyword" }
+        ]
+    },
     "#opacity-inline": {
         "valid": [
             { "test": "ttml2-valid-opacity-inline" },
@@ -1013,6 +1024,8 @@
     "#opacity-version-2": {
         "valid": [
             { "test": "ttml2-valid-opacity-block" },
+            { "test": "ttml2-valid-opacity-image-block", "since": "2e" },
+            { "test": "ttml2-valid-opacity-image-inline", "since": "2e" },
             { "test": "ttml2-valid-opacity-inline" },
             { "test": "ttml2-valid-opacity-out-of-range" },
             { "test": "ttml2-valid-opacity-region" }
