@@ -905,7 +905,8 @@
             { "test": "ttml2-valid-initial-single" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-initial-nested-style" }
+            { "test": "ttml2-invld-initial-nested-style" },
+            { "test": "ttml2-invld-initial-unalterable-ruby", "since": "2e" }
         ]
     },
     "#ipd": {
