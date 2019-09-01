@@ -627,6 +627,13 @@
         ],
         "invalid": []
     },
+    "#opacity-image": {
+        "valid": [
+            { "test": "ttml2-prstn-opacity-image-block", "since": "2e" },
+            { "test": "ttml2-prstn-opacity-image-inline", "since": "2e" }
+        ],
+        "invalid": []
+    },
     "#opacity-inline": {
         "valid": [
             { "test": "ttml2-prstn-opacity-inline" }
@@ -636,6 +643,8 @@
     "#opacity-version-2": {
         "valid": [
             { "test": "ttml2-prstn-opacity-block" },
+            { "test": "ttml2-prstn-opacity-image-block", "since": "2e" },
+            { "test": "ttml2-prstn-opacity-image-inline", "since": "2e" },
             { "test": "ttml2-prstn-opacity-inline" }
         ],
         "invalid": []
