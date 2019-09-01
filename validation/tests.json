@@ -544,6 +544,7 @@
             { "test": "ttml2-valid-data-embedding-chunked" },
             { "test": "ttml2-valid-data-embedding-chunked-zero-length", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-reference", "since": "2e" },
+            { "test": "ttml2-valid-data-embedding-reference-missing-type", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-reference-with-metadata", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-simple" },
             { "test": "ttml2-valid-data-embedding-sourced" }
