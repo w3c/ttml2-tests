@@ -912,6 +912,11 @@
             { "test": "ttml2-invld-bad-ipd-unknown-keyword" }
         ]
     },
+    "#length-real-version-2": {
+        "valid": [
+            { "test": "ttml2-valid-length-real-version-2", "since": "2e" }
+        ]
+    },
     "#length-root-container-relative": {
         "valid": [
             { "test": "ttml2-valid-length-2-root-container-relative" }
@@ -924,7 +929,8 @@
         "valid": [
             { "test": "ttml2-valid-length-1" },
             { "test": "ttml2-valid-length-2" },
-            { "test": "ttml2-valid-length-2-root-container-relative" }
+            { "test": "ttml2-valid-length-2-root-container-relative" },
+            { "test": "ttml2-valid-length-real-version-2", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-length-2-root-container-relative" }
