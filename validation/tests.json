@@ -1363,7 +1363,8 @@
             { "test": "ttml2-invld-profile-nested-mixed" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
-            { "test": "ttml2-invld-profile-type-unknown-keyword" }
+            { "test": "ttml2-invld-profile-type-unknown-keyword" },
+            { "test": "ttml2-invld-profile-use-fragment", "since": "2e" }
         ]
     },
     "#profile-nesting": {
@@ -1417,7 +1418,8 @@
             { "test": "ttml2-invld-profile-designator-fragment" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
-            { "test": "ttml2-invld-profile-type-unknown-keyword" }
+            { "test": "ttml2-invld-profile-type-unknown-keyword" },
+            { "test": "ttml2-invld-profile-use-fragment", "since": "2e" }
         ]
     },
     "#region-implied-animation": {
