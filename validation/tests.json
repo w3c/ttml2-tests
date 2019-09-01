@@ -541,12 +541,14 @@
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
             { "test": "ttml2-valid-data-embedding-simple" },
+            { "test": "ttml2-valid-data-embedding-simple-with-lwsp", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-sourced" }
         ],
         "invalid": [
             { "test": "ttml2-invld-data-chunked-missing-type" },
             { "test": "ttml2-invld-data-reference-internal-with-type" },
-            { "test": "ttml2-invld-data-simple-missing-type" }
+            { "test": "ttml2-invld-data-simple-missing-type" },
+            { "test": "ttml2-invld-data-simple-non-alphabet", "since": "2e" }
         ]
     },
     "#disparity": {
