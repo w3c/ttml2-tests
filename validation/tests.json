@@ -407,9 +407,11 @@
     },
     "#chunk": {
         "valid": [
-            { "test": "ttml2-valid-data-embedding-chunked" }
+            { "test": "ttml2-valid-data-embedding-chunked" },
+            { "test": "ttml2-valid-data-embedding-chunked-zero-length", "since": "2e" }
         ],
         "invalid": [
+            { "test": "ttml2-invld-data-chunked-bad-length", "since": "2e" },
             { "test": "ttml2-invld-data-chunked-missing-type" },
             { "test": "ttml2-invld-data-chunked-with-base", "since": "2e" },
             { "test": "ttml2-invld-data-chunked-with-condition", "since": "2e" }
@@ -540,15 +542,17 @@
     "#data": {
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
+            { "test": "ttml2-valid-data-embedding-chunked-zero-length", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-reference", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-reference-with-metadata", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-simple" },
-            { "test": "ttml2-valid-data-embedding-simple-with-lwsp", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-sourced" }
         ],
         "invalid": [
+            { "test": "ttml2-invld-data-chunked-bad-length", "since": "2e" },
             { "test": "ttml2-invld-data-chunked-missing-type" },
             { "test": "ttml2-invld-data-reference-internal-with-type" },
+            { "test": "ttml2-invld-data-simple-bad-length", "since": "2e" },
             { "test": "ttml2-invld-data-simple-missing-type" },
             { "test": "ttml2-invld-data-simple-non-alphabet", "since": "2e" }
         ]
@@ -918,9 +922,38 @@
             { "test": "ttml2-invld-bad-ipd-unknown-keyword" }
         ]
     },
+    "#isd": {
+        "type": "isd",
+        "since": "2e",
+        "valid": [
+            { "test": "ttml2-valid-isd-sequence-size-non-zero" },
+            { "test": "ttml2-valid-isd-sequence-size-zero" },
+            { "test": "ttml2-valid-isd-sequence-version-2" },
+            { "test": "ttml2-valid-isd-single-version-2" }
+        ],
+        "invalid": [
+            { "test": "ttml2-invld-isd-sequence-bad-size-0-minus" },
+            { "test": "ttml2-invld-isd-sequence-bad-size-0-plus" },
+            { "test": "ttml2-invld-isd-sequence-bad-size-1-minus" },
+            { "test": "ttml2-invld-isd-sequence-bad-size-1-plus" },
+            { "test": "ttml2-invld-isd-sequence-bad-version-0" },
+            { "test": "ttml2-invld-isd-sequence-bad-version-0-plus" },
+            { "test": "ttml2-invld-isd-sequence-bad-version-1" },
+            { "test": "ttml2-invld-isd-sequence-bad-version-1-plus" },
+            { "test": "ttml2-invld-isd-sequence-bad-version-2-plus" },
+            { "test": "ttml2-invld-isd-single-bad-version-0" },
+            { "test": "ttml2-invld-isd-single-bad-version-0-plus" },
+            { "test": "ttml2-invld-isd-single-bad-version-1" },
+            { "test": "ttml2-invld-isd-single-bad-version-1-plus" },
+            { "test": "ttml2-invld-isd-single-bad-version-2-plus" },
+            { "test": "ttml2-invld-isd-single-nested-bad-version" }
+        ]
+    },
     "#length-real-version-2": {
         "valid": [
             { "test": "ttml2-valid-length-real-version-2", "since": "2e" }
+        ],
+        "invalid": [
         ]
     },
     "#length-root-container-relative": {

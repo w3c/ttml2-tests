@@ -567,7 +567,15 @@
         ],
         "invalid": []
     },
+    "#isd": {
+        "type": "isd",
+        "since": "2e",
+        "valid": [],
+        "invalid": []
+    },
     "#length-real-version-2": {
+        "valid": [],
+        "invalid": []
     },
     "#length-root-container-relative": {
         "valid": [
