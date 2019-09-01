@@ -13,7 +13,7 @@ function pass() {
 }
 
 // miscellaneous constants
-var expectedFeatureCount        = 132;
+var expectedFeatureCount        = 134;
 
 // miscellaneous globals
 var ne = 0;                     // # of errors encountered
@@ -45,12 +45,12 @@ try {
 // check that feature counts are correct
 var nvf = vf.length;
 if (nvf != expectedFeatureCount) {
-    console.log('[E]:' + 'expected ' + expectedFeatureCount + 'validation features, but only ' + nvf + ' features specified');
+    console.log('[E]:' + 'expected ' + expectedFeatureCount + ' validation features, but ' + nvf + ' features specified');
     ne++;
 }
 var npf = pf.length;
 if (npf != expectedFeatureCount) {
-    console.log('[E]:' + 'expected ' + expectedFeatureCount + 'presentation features, but only ' + npf + ' features specified');
+    console.log('[E]:' + 'expected ' + expectedFeatureCount + ' presentation features, but ' + npf + ' features specified');
     ne++;
 }
 
