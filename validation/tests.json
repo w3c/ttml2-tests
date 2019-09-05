@@ -525,18 +525,12 @@
             { "test": "ttml2-valid-content-profile-multiple" },
             { "test": "ttml2-valid-content-profiles-quantified-all-multiple" },
             { "test": "ttml2-valid-content-profiles-unquantified-multiple" },
-            { "test": "ttml2-valid-infer-processor-profile-source-combined" },
-            { "test": "ttml2-valid-profile-combine-least-restrictive" },
-            { "test": "ttml2-valid-profile-combine-most-restrictive" },
-            { "test": "ttml2-valid-profile-combine-replace" }
+            { "test": "ttml2-valid-infer-processor-profile-source-combined" }
         ],
         "invalid": [
             { "test": "ttml2-invld-content-profile-combination-all-space" },
             { "test": "ttml2-invld-content-profile-combination-empty" },
-            { "test": "ttml2-invld-content-profile-combination-unknown-keyword" },
-            { "test": "ttml2-invld-profile-combine-all-space" },
-            { "test": "ttml2-invld-profile-combine-empty" },
-            { "test": "ttml2-invld-profile-combine-unknown-keyword" }
+            { "test": "ttml2-invld-content-profile-combination-unknown-keyword" }
         ]
     },
     "#data": {
@@ -1268,18 +1262,12 @@
             { "test": "ttml2-valid-processor-profile-combination-replace" },
             { "test": "ttml2-valid-processor-profile-multiple" },
             { "test": "ttml2-valid-processor-profiles-quantified-all-multiple" },
-            { "test": "ttml2-valid-processor-profiles-unquantified-multiple" },
-            { "test": "ttml2-valid-profile-combine-least-restrictive" },
-            { "test": "ttml2-valid-profile-combine-most-restrictive" },
-            { "test": "ttml2-valid-profile-combine-replace" }
+            { "test": "ttml2-valid-processor-profiles-unquantified-multiple" }
         ],
         "invalid": [
             { "test": "ttml2-invld-processor-profile-combination-all-space" },
             { "test": "ttml2-invld-processor-profile-combination-empty" },
-            { "test": "ttml2-invld-processor-profile-combination-unknown-keyword" },
-            { "test": "ttml2-invld-profile-combine-all-space" },
-            { "test": "ttml2-invld-profile-combine-empty" },
-            { "test": "ttml2-invld-profile-combine-unknown-keyword" }
+            { "test": "ttml2-invld-processor-profile-combination-unknown-keyword" }
         ]
     },
     "#profile-full-version-2": {
@@ -1314,6 +1302,7 @@
             { "test": "ttml2-valid-processor-profiles-quantified-any-single" },
             { "test": "ttml2-valid-processor-profiles-unquantified-multiple" },
             { "test": "ttml2-valid-processor-profiles-unquantified-single" },
+            { "test": "ttml2-valid-profile-combine-ignore", "since": "2e" },
             { "test": "ttml2-valid-profile-combine-least-restrictive" },
             { "test": "ttml2-valid-profile-combine-most-restrictive" },
             { "test": "ttml2-valid-profile-combine-replace" },
