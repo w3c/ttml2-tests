@@ -12,6 +12,11 @@
         "invalid": [
             { "test": "ttml2-invld-bad-animate-animation-style-value" },
             { "test": "ttml2-invld-bad-animate-negative-repeat-count" },
+            { "test": "ttml2-invld-bad-animate-non-animatable", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-default", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-linear", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-paced", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-spline", "since": "2e" },
             { "test": "ttml2-invld-bad-animate-unknown-calculation-mode" },
             { "test": "ttml2-invld-bad-animate-unknown-fill" },
             { "test": "ttml2-invld-bad-animate-unknown-repeat-count" }
@@ -30,13 +35,19 @@
             { "test": "ttml2-valid-animate-discrete" },
             { "test": "ttml2-valid-animate-linear" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-invld-bad-animate-non-animatable", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-default", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-linear", "since": "2e" }
+        ]
     },
     "#animate-paced": {
         "valid": [
             { "test": "ttml2-valid-animate-paced" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-paced", "since": "2e" }
+        ]
     },
     "#animate-repeat": {
         "valid": [
@@ -50,7 +61,9 @@
         "valid": [
             { "test": "ttml2-valid-animate-spline" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-spline", "since": "2e" }
+        ]
     },
     "#animation-out-of-line": {
         "valid": [
@@ -73,9 +86,15 @@
         "invalid": [
             { "test": "ttml2-invld-bad-animate-animation-style-value" },
             { "test": "ttml2-invld-bad-animate-negative-repeat-count" },
+            { "test": "ttml2-invld-bad-animate-non-animatable", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-default", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-linear", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-paced", "since": "2e" },
+            { "test": "ttml2-invld-bad-animate-non-animatable-discrete-spline", "since": "2e" },
             { "test": "ttml2-invld-bad-animate-unknown-calculation-mode" },
             { "test": "ttml2-invld-bad-animate-unknown-fill" },
-            { "test": "ttml2-invld-bad-animate-unknown-repeat-count" }
+            { "test": "ttml2-invld-bad-animate-unknown-repeat-count" },
+            { "test": "ttml2-invld-bad-set-non-animatable", "since": "2e" }
         ]
     },
     "#audio": {
