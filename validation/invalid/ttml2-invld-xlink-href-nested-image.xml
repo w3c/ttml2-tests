@@ -9,7 +9,7 @@
   <div>
     <p>
       <span xlink:href="https://example.com/">
-        <span xlink:href="https://example.com/">link</span>
+        <image src="../resources/test.png" type="image/png" xlink:href="https://example.com/"/>
       </span>
     </p>
   </div>
