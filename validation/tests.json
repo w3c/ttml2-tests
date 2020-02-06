@@ -7,7 +7,8 @@
             { "test": "ttml2-valid-animate-out-of-line" },
             { "test": "ttml2-valid-animate-paced" },
             { "test": "ttml2-valid-animate-repeat-count" },
-            { "test": "ttml2-valid-animate-spline" }
+            { "test": "ttml2-valid-animate-spline" },
+            { "test": "ttml2-valid-xml-id-missing", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-bad-animate-animation-style-value" },
@@ -64,6 +65,12 @@
         "invalid": [
             { "test": "ttml2-invld-bad-animate-non-animatable-discrete-spline", "since": "2e" }
         ]
+    },
+    "#animation": {
+        "valid": [
+            { "test": "ttml2-valid-xml-id-missing", "since": "2e" }
+        ],
+        "invalid": []
     },
     "#animation-out-of-line": {
         "valid": [
@@ -963,6 +970,12 @@
             { "test": "ttml2-invld-isd-single-nested-bad-version" }
         ]
     },
+    "#layout": {
+        "valid": [
+            { "test": "ttml2-valid-xml-id-missing", "since": "2e" }
+        ],
+        "invalid": []
+    },
     "#length-real-version-2": {
         "valid": [
             { "test": "ttml2-valid-length-real-version-2", "since": "2e" }
@@ -1559,6 +1572,12 @@
             { "test": "ttml2-invld-bad-ruby-reserve-negative" },
             { "test": "ttml2-invld-bad-ruby-reserve-unknown-keyword" }
         ]
+    },
+    "#set": {
+        "valid": [
+            { "test": "ttml2-valid-xml-id-missing", "since": "2e" }
+        ],
+        "invalid": []
     },
     "#set-fill": {
         "valid": [

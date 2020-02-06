@@ -43,6 +43,10 @@
         ],
         "invalid": []
     },
+    "#animation": {
+        "valid": [],
+        "invalid": []
+    },
     "#animation-out-of-line": {
         "valid": [
             { "test": "ttml2-prstn-animation-out-of-line" }
@@ -573,6 +577,12 @@
         "valid": [],
         "invalid": []
     },
+    "#layout": {
+        "valid": [
+            { "test": "ttml2-prstn-region-no-default", "since": "2e" }
+        ],
+        "invalid": []
+    },
     "#length-real-version-2": {
         "valid": [],
         "invalid": []
@@ -846,6 +856,10 @@
             { "test": "ttml2-prstn-ruby-reserve-imsc11-2" },
             { "test": "ttml2-prstn-ruby-reserve-imsc11-3" }
         ],
+        "invalid": []
+    },
+    "#set": {
+        "valid": [],
         "invalid": []
     },
     "#set-fill": {
