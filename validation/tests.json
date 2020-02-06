@@ -1625,7 +1625,10 @@
     },
     "#speak": {
         "valid": [
-            { "test": "ttml2-valid-speak" }
+            { "test": "ttml2-valid-speak" },
+            { "test": "ttml2-valid-speak-implied-audio", "since": "2e" },
+            { "test": "ttml2-valid-speak-implied-audio-disabled", "since": "2e" },
+            { "test": "ttml2-valid-speak-implied-audio-source", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-bad-speak-all-space" },
