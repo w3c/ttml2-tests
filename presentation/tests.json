@@ -788,6 +788,9 @@
     },
     "#ruby": {
         "valid": [
+            { "test": "ttml2-prstn-ruby-ignored-lwsp-container", "since": "2e" },
+            { "test": "ttml2-prstn-ruby-ignored-lwsp-container-base", "since": "2e" },
+            { "test": "ttml2-prstn-ruby-ignored-lwsp-container-text", "since": "2e" },
             { "test": "ttml2-prstn-ruby-imsc11-1" },
             { "test": "ttml2-prstn-ruby-imsc11-2" },
             { "test": "ttml2-prstn-ruby-imsc11-3" },
