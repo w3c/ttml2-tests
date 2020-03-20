@@ -526,6 +526,7 @@
     },
     "#fontShear": {
         "valid": [
+            { "test": "ttml2-prstn-font-shear-linear-mapping", "since": "2e" },
             { "test": "ttml2-prstn-font-shear-no-ruby" },
             { "test": "ttml2-prstn-font-shear-multiple" },
             { "test": "ttml2-prstn-font-shear-single" }
@@ -617,6 +618,7 @@
     },
     "#lineShear": {
         "valid": [
+            { "test": "ttml2-prstn-line-shear-linear-mapping", "since": "2e" },
             { "test": "ttml2-prstn-line-shear-no-ruby" },
             { "test": "ttml2-prstn-line-shear-multiple" },
             { "test": "ttml2-prstn-line-shear-single" }
@@ -884,7 +886,8 @@
         "valid": [
             { "test": "ttml2-prstn-shear-imsc11-1" },
             { "test": "ttml2-prstn-shear-imsc11-2" },
-            { "test": "ttml2-prstn-shear-imsc11-3" }
+            { "test": "ttml2-prstn-shear-imsc11-3" },
+            { "test": "ttml2-prstn-shear-linear-mapping", "since": "2e" }
         ],
         "invalid": []
     },
