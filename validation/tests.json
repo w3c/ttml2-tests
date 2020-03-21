@@ -1215,6 +1215,13 @@
             { "test": "ttml2-invld-bad-position-unknown-keyword" }
         ]
     },
+    "#presentation-audio": {
+        "valid": [
+            { "test": "ttml2-valid-presentation-audio", "since": "2e" }
+        ],
+        "invalid": [
+        ]
+    },
     "#presentation-version-2": {
         "valid": [
             { "test": "ttml2-valid-content-profiles-quantified-all-single" },

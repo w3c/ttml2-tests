@@ -723,6 +723,12 @@
         ],
         "invalid": []
     },
+    "#presentation-audio": {
+        "valid": [
+        ],
+        "invalid": [
+        ]
+    },
     "#presentation-version-2": {
         "valid": [
             { "test": "ttml2-prstn-content-profiles" },
