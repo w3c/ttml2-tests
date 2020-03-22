@@ -108,6 +108,7 @@
         "valid": [
             { "test": "ttml2-valid-audio-embedding" },
             { "test": "ttml2-valid-audio-in-block" },
+            { "test": "ttml2-valid-audio-in-body", "since": "2e" },
             { "test": "ttml2-valid-audio-in-inline" }
         ],
         "invalid": [
@@ -119,6 +120,7 @@
     "#audio-description": {
         "valid": [
             { "test": "ttml2-valid-audio-in-block" },
+            { "test": "ttml2-valid-audio-in-body", "since": "2e" },
             { "test": "ttml2-valid-audio-in-inline" },
             { "test": "ttml2-valid-gain" },
             { "test": "ttml2-valid-pan" }
@@ -891,8 +893,10 @@
         "valid": [
             { "test": "ttml2-valid-image-embedding" },
             { "test": "ttml2-valid-image-in-block-png" },
+            { "test": "ttml2-valid-image-in-body-png", "since": "2e" },
             { "test": "ttml2-valid-image-in-block-simple-source-jpg" },
             { "test": "ttml2-valid-image-in-block-simple-source-png" },
+            { "test": "ttml2-valid-image-in-body-png", "since": "2e" },
             { "test": "ttml2-valid-image-in-inline-png" },
             { "test": "ttml2-valid-image-in-inline-simple-source-jpg" },
             { "test": "ttml2-valid-image-in-inline-simple-source-png" }
@@ -910,6 +914,7 @@
         "valid": [
             { "test": "ttml2-valid-image-in-block-png" },
             { "test": "ttml2-valid-image-in-block-simple-source-png" },
+            { "test": "ttml2-valid-image-in-body-png", "since": "2e" },
             { "test": "ttml2-valid-image-in-inline-png" },
             { "test": "ttml2-valid-image-in-inline-simple-source-png" }
         ],
