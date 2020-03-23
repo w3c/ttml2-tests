@@ -514,13 +514,15 @@
     },
     "#fontSelectionStrategy": {
         "valid": [
-            { "test": "ttml2-prstn-font-selection-strategy" }
+            { "test": "ttml2-prstn-font-selection-strategy" },
+            { "test": "ttml2-prstn-font-selection-strategy-line-height-normal", "since": "2e" }
         ],
         "invalid": []
     },
     "#fontSelectionStrategy-character": {
         "valid": [
-            { "test": "ttml2-prstn-font-selection-strategy" }
+            { "test": "ttml2-prstn-font-selection-strategy" },
+            { "test": "ttml2-prstn-font-selection-strategy-line-height-normal", "since": "2e" }
         ],
         "invalid": []
     },
