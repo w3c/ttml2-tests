@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- invalid - content profile with overconstrained #extent-root-version-2, i.e., prohibited #extent-contain (see E.1.93) -->
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml">
+  <head>
+    <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="processor" use="ttml2-transformation"/>
+    <profile xmlns="http://www.w3.org/ns/ttml#parameter" type="content">
+      <features>
+        <feature value="optional">#extent-root-version-2</feature>
+        <feature value="prohibited">#extent-contain</feature>
+      </features>
+    </profile>
+  </head>
+</tt>
