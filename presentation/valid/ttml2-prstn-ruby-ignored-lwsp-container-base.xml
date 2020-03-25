@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- valid - tts:ruby - ruby base container with preserved whitespace that must nevertheless be ignored (for presentation) -->
 <tt xml:lang="ja" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-presentation"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
     tts:extent="1280px 720px"
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
-  <head/>
+  <head>
+    <metadata>
+      <ttm:desc>each paragraph (line) should have the same presentation, i.e., base container lwsp ignored</ttm:desc>
+    </metadata>
+  </head>
 <body>
   <div>
     <p>
