@@ -814,7 +814,8 @@
     },
     "#font": {
         "valid": [
-            { "test": "ttml2-valid-font-embedding" }
+            { "test": "ttml2-valid-font-embedding" },
+            { "test": "ttml2-valid-font-embedding-family-case-sensitive", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-font-embedding-family", "since": "2e" },
