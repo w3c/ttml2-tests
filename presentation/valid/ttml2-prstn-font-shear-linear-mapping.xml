@@ -12,7 +12,7 @@
     </metadata>
     <styling>
       <style xml:id="sRegion" tts:showBackground="whenActive" tts:backgroundColor="black" tts:displayAlign="center"/>
-      <style xml:id="sText" tts:color="white" tts:textAlign="center" tts:fontSize="6.67%" tts:lineHeight="8.0%"/>
+      <style xml:id="sText" tts:color="white" tts:textAlign="center" tts:fontSize="6.67rh" tts:lineHeight="8.0rh"/>
     </styling>
     <layout>
       <region xml:id="horizontal" style="sRegion sText" tts:extent="40% 60%" tts:origin="5% 5%"/>
