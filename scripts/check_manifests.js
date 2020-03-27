@@ -13,7 +13,7 @@ function pass() {
 }
 
 // miscellaneous constants
-var expectedFeatureCount        = 137;
+var expectedFeatureCount        = 138;
 
 // miscellaneous globals
 var ne = 0;                     // # of errors encountered
