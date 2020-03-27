@@ -1389,6 +1389,7 @@
             { "test": "ttml2-invld-profile-combine-empty" },
             { "test": "ttml2-invld-profile-combine-unknown-keyword" },
             { "test": "ttml2-invld-profile-designator-fragment" },
+            { "test": "ttml2-invld-profile-designator-registry-undefined", "since": "2e" },
             { "test": "ttml2-invld-profile-nested-mixed" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
