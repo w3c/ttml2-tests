@@ -417,7 +417,9 @@
         "valid": [
             { "test": "ttml2-prstn-font-embedding" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-prstn-font-embedding-family-invalid", "since": "2e" }
+        ]
     },
     "#embedded-image": {
         "valid": [
@@ -504,7 +506,9 @@
         "valid": [
             { "test": "ttml2-prstn-font-embedding" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-prstn-font-embedding-family-invalid", "since": "2e" }
+        ]
     },
     "#fontKerning": {
         "valid": [
