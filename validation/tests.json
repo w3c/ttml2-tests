@@ -799,7 +799,9 @@
             { "test": "ttml2-valid-extent-1-root-definite" },
             { "test": "ttml2-valid-extent-2-root-auto" }
         ],
-        "invalid": []
+        "invalid": [
+            { "test": "ttml2-invlid-content-profile-extent-root-version-2", "since": "2e" }
+        ]
     },
     "#extent-version-2": {
         "valid": [
