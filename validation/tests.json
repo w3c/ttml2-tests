@@ -1875,6 +1875,7 @@
         "invalid": [
             { "test": "ttml2-invld-xlink-href-all-space" },
             { "test": "ttml2-invld-xlink-href-empty", "exclude": true },
+            { "test": "ttml2-invld-xlink-href-nested-image", "since": "2e" },
             { "test": "ttml2-invld-xlink-href-nested-span" }
         ]
     }
