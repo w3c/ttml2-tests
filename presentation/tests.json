@@ -74,6 +74,7 @@
             { "test": "ttml2-prstn-audio-gain-mix" },
             { "test": "ttml2-prstn-audio-gain-on-audio" },
             { "test": "ttml2-prstn-audio-gain-on-p" },
+            { "test": "ttml2-prstn-audio-in-body", "since": "2e" },
             { "test": "ttml2-prstn-audio-pan-mix" },
             { "test": "ttml2-prstn-audio-pan-on-audio" },
             { "test": "ttml2-prstn-audio-pan-on-p" }
@@ -88,6 +89,7 @@
             { "test": "ttml2-prstn-audio-gain-mix" },
             { "test": "ttml2-prstn-audio-gain-on-audio" },
             { "test": "ttml2-prstn-audio-gain-on-p" },
+            { "test": "ttml2-prstn-audio-in-body", "since": "2e" },
             { "test": "ttml2-prstn-audio-pan-mix" },
             { "test": "ttml2-prstn-audio-pan-on-audio" },
             { "test": "ttml2-prstn-audio-pan-on-p" }
@@ -552,13 +554,15 @@
     },
     "#image": {
         "valid": [
-            { "test": "ttml2-prstn-image-imsc11-1" }
+            { "test": "ttml2-prstn-image-imsc11-1" },
+            { "test": "ttml2-prstn-image-in-body", "since": "2e" }
         ],
         "invalid": []
     },
     "#image-png": {
         "valid": [
-            { "test": "ttml2-prstn-image-imsc11-1" }
+            { "test": "ttml2-prstn-image-imsc11-1" },
+            { "test": "ttml2-prstn-image-in-body", "since": "2e" }
         ],
         "invalid": []
     },
