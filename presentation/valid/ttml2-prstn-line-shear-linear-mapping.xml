@@ -11,46 +11,60 @@
       <ttm:desc>#lineShear - linear mapping</ttm:desc>
     </metadata>
     <styling>
-      <initial tts:color="white"/>
-      <initial tts:fontSize="1.000001c"/>
-      <style xml:id="s1" tts:showBackground="whenActive" tts:backgroundColor="black" tts:textAlign="center" tts:displayAlign="center"/>
+      <style xml:id="sRegion" tts:showBackground="whenActive" tts:backgroundColor="black" tts:displayAlign="center"/>
+      <style xml:id="sText" tts:color="white" tts:textAlign="center" tts:fontSize="6.67rh" tts:lineHeight="8.0rh"/>
     </styling>
     <layout>
-      <region xml:id="horizontal" style="s1" tts:extent="40% 60%" tts:origin="5% 5%"/>
-      <region xml:id="vertical" style="s1" tts:origin="55% 5%" tts:extent="40% 60%" tts:writingMode="tblr"/>
-      <region xml:id="caption" style="s1" tts:origin="10% 75%" tts:extent="80% 20%"/>
+      <region xml:id="horizontal" style="sRegion sText" tts:extent="40% 60%" tts:origin="5% 5%"/>
+      <region xml:id="vertical" style="sRegion sText" tts:origin="55% 5%" tts:extent="40% 60%" tts:writingMode="tblr"/>
+      <region xml:id="caption" style="sRegion sText" tts:origin="10% 75%" tts:extent="80% 20%"/>
     </layout>
   </head>
   <body>
     <div begin="0s" end="1s">
+      <p region="caption">Zero line shear</p>
+      <p region="horizontal" tts:lineShear="0%">0%<br/>三日坊主</p>
+      <p region="vertical" tts:lineShear="0%">0%<br/>三日坊主</p>
+    </div>
+    <div begin="1s" end="2s">
       <p region="caption">Positive line shear</p>
       <p region="horizontal" tts:lineShear="16.78842%">16.78842%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="16.78842%">16.78842%<br/>三日坊主</p>
     </div>
-    <div begin="1s" end="2s">
+    <div begin="2s" end="3s">
       <p region="caption">Positive line shear</p>
       <p region="horizontal" tts:lineShear="50%">50%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="50%">50%<br/>三日坊主</p>
     </div>
-    <div begin="2s" end="3s">
+    <div begin="3s" end="4s">
       <p region="caption">Positive line shear</p>
       <p region="horizontal" tts:lineShear="64.333%">64.333%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="64.333%">64.333%<br/>三日坊主</p>
     </div>
-    <div begin="3s" end="4s">
+    <div begin="4s" end="5s">
+      <p region="caption">Positive line shear</p>
+      <p region="horizontal" tts:lineShear="100%">100%<br/>三日坊主</p>
+      <p region="vertical" tts:lineShear="100%">100%<br/>三日坊主</p>
+    </div>
+    <div begin="5s" end="6s">
       <p region="caption">Negative line shear</p>
       <p region="horizontal" tts:lineShear="-16.78842%">-16.78842%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="-16.78842%">-16.78842%<br/>三日坊主</p>
     </div>
-    <div begin="4s" end="5s">
+    <div begin="6s" end="7s">
       <p region="caption">Negative line shear</p>
       <p region="horizontal" tts:lineShear="-50%">-50%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="-50%">-50%<br/>三日坊主</p>
     </div>
-    <div begin="5s" end="6s">
+    <div begin="7s" end="8s">
       <p region="caption">Negative line shear</p>
       <p region="horizontal" tts:lineShear="-64.333%">-64.333%<br/>三日坊主</p>
       <p region="vertical" tts:lineShear="-64.333%">-64.333%<br/>三日坊主</p>
+    </div>
+    <div begin="8s" end="9s">
+      <p region="caption">Negative line shear</p>
+      <p region="horizontal" tts:lineShear="-100%">-100%<br/>三日坊主</p>
+      <p region="vertical" tts:lineShear="-100%">-100%<br/>三日坊主</p>
     </div>
   </body>
 </tt>
