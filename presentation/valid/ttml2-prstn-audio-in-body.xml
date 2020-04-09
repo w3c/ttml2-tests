@@ -7,5 +7,8 @@
     xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="0" ttva:expectedWarnings="0" ttva:model="ttml2">
   <body>
     <audio src="../resources/audio/ttml2-prstn-audio-clipbegin-end.mp3" type="audio/mpeg"/>
+    <div>
+      <p>Early in. On time. Late out.</p>
+    </div>
   </body>
 </tt>
