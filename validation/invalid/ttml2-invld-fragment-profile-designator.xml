@@ -8,13 +8,13 @@
   <head>
     <!-- content profiles -->
     <ttp:profile xml:id="nonNestedContentProfile" type="content">
-      <ttp:profile xml:id="nonNestedContentProfile" type="content"/>
+      <ttp:profile xml:id="nestedContentProfile" type="content"/>
     </ttp:profile>
     <ttp:profile xml:id="usesNonNestedContentProfile" type="content" use="#nonNestedContentProfile"/>         <!-- valid fragment designator -->
     <ttp:profile xml:id="usesNestedContentProfile" type="content" use="#nestedContentProfile"/>               <!-- invalid fragment designator -->
     <!-- processor profiles -->
     <ttp:profile xml:id="nonNestedProcessorProfile" type="processor">
-      <ttp:profile xml:id="nonNestedProcessorProfile" type="processor"/>
+      <ttp:profile xml:id="nestedProcessorProfile" type="processor"/>
     </ttp:profile>
     <ttp:profile xml:id="usesNonNestedProcessorProfile" type="processor" use="#nonNestedProcessorProfile"/>   <!-- valid fragment designator -->
     <ttp:profile xml:id="usesNestedProcessorProfile" type="processor" use="#nestedProcessorProfile"/>         <!-- invalid fragment designator -->
