@@ -1411,6 +1411,7 @@
             { "test": "ttml2-valid-processor-profile-nested" }
         ],
         "invalid": [
+            { "test": "ttml2-invld-fragment-profile-designator", "since": "2e" },
             { "test": "ttml2-invld-profile-nested-mixed" }
         ]
     },
