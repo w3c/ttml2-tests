@@ -569,6 +569,8 @@
             { "test": "ttml2-valid-data-embedding-reference-missing-type", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-reference-with-metadata", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-simple" },
+            { "test": "ttml2-valid-data-embedding-simple-with-lwsp", "since": "2e" },
+            { "test": "ttml2-valid-data-embedding-simple-zero-length", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-sourced" }
         ],
         "invalid": [
@@ -681,6 +683,8 @@
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
             { "test": "ttml2-valid-data-embedding-simple" },
+            { "test": "ttml2-valid-data-embedding-simple-with-lwsp", "since": "2e" },
+            { "test": "ttml2-valid-data-embedding-simple-zero-length", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-sourced" },
             { "test": "ttml2-valid-resources-all" }
         ],
@@ -1272,6 +1276,7 @@
             { "test": "ttml2-invld-processor-profiles-quantifier-syntax" },
             { "test": "ttml2-invld-processor-profiles-quantifier-unknown" },
             { "test": "ttml2-invld-profile-designator-fragment" },
+            { "test": "ttml2-invld-profile-designator-fragment-nested", "since": "2e" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
             { "test": "ttml2-invld-profile-type-unknown-keyword" }
@@ -1397,6 +1402,7 @@
             { "test": "ttml2-invld-profile-combine-empty" },
             { "test": "ttml2-invld-profile-combine-unknown-keyword" },
             { "test": "ttml2-invld-profile-designator-fragment" },
+            { "test": "ttml2-invld-profile-designator-fragment-nested", "since": "2e" },
             { "test": "ttml2-invld-profile-designator-registry-undefined", "since": "2e" },
             { "test": "ttml2-invld-profile-nested-mixed" },
             { "test": "ttml2-invld-profile-type-all-space" },
@@ -1411,7 +1417,7 @@
             { "test": "ttml2-valid-processor-profile-nested" }
         ],
         "invalid": [
-            { "test": "ttml2-invld-fragment-profile-designator", "since": "2e" },
+            { "test": "ttml2-invld-profile-designator-fragment-nested", "since": "2e" },
             { "test": "ttml2-invld-profile-nested-mixed" }
         ]
     },
@@ -1455,6 +1461,7 @@
             { "test": "ttml2-invld-processor-profiles-quantifier-syntax" },
             { "test": "ttml2-invld-processor-profiles-quantifier-unknown" },
             { "test": "ttml2-invld-profile-designator-fragment" },
+            { "test": "ttml2-invld-profile-designator-fragment-nested", "since": "2e" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
             { "test": "ttml2-invld-profile-type-unknown-keyword" },
@@ -1483,6 +1490,8 @@
         "valid": [
             { "test": "ttml2-valid-data-embedding-chunked" },
             { "test": "ttml2-valid-data-embedding-simple" },
+            { "test": "ttml2-valid-data-embedding-simple-with-lwsp", "since": "2e" },
+            { "test": "ttml2-valid-data-embedding-simple-zero-length", "since": "2e" },
             { "test": "ttml2-valid-data-embedding-sourced" },
             { "test": "ttml2-valid-resources-all" }
         ],
@@ -1811,6 +1820,7 @@
             { "test": "ttml2-invld-processor-profiles-quantifier-syntax" },
             { "test": "ttml2-invld-processor-profiles-quantifier-unknown" },
             { "test": "ttml2-invld-profile-designator-fragment" },
+            { "test": "ttml2-invld-profile-designator-fragment-nested", "since": "2e" },
             { "test": "ttml2-invld-profile-type-all-space" },
             { "test": "ttml2-invld-profile-type-empty" },
             { "test": "ttml2-invld-profile-type-unknown-keyword" }
