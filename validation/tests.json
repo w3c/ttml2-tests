@@ -863,12 +863,13 @@
     },
     "#fontShear": {
         "valid": [
-            { "test": "ttml2-valid-font-shear" }
+            { "test": "ttml2-valid-font-shear" },
+            { "test": "ttml2-valid-font-shear-real-syntax", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-bad-font-shear-all-space" },
             { "test": "ttml2-invld-bad-font-shear-empty" },
-            { "test": "ttml2-invld-bad-font-shear-real-syntax" },
+            { "test": "ttml2-invld-bad-font-shear-real-syntax", "exclude": true, "since": "2e" },
             { "test": "ttml2-invld-bad-font-shear-unknown-keyword" }
         ]
     },
@@ -1028,12 +1029,13 @@
     },
     "#lineShear": {
         "valid": [
-            { "test": "ttml2-valid-line-shear" }
+            { "test": "ttml2-valid-line-shear" },
+            { "test": "ttml2-valid-line-shear-real-syntax", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-bad-line-shear-all-space" },
             { "test": "ttml2-invld-bad-line-shear-empty" },
-            { "test": "ttml2-invld-bad-line-shear-real-syntax" },
+            { "test": "ttml2-invld-bad-line-shear-real-syntax", "exclude": true, "since": "2e" },
             { "test": "ttml2-invld-bad-line-shear-unknown-keyword" }
         ]
     },
@@ -1630,12 +1632,13 @@
     },
     "#shear": {
         "valid": [
-            { "test": "ttml2-valid-shear" }
+            { "test": "ttml2-valid-shear" },
+            { "test": "ttml2-valid-shear-real-syntax", "since": "2e" }
         ],
         "invalid": [
             { "test": "ttml2-invld-bad-shear-all-space" },
             { "test": "ttml2-invld-bad-shear-empty" },
-            { "test": "ttml2-invld-bad-shear-real-syntax" },
+            { "test": "ttml2-invld-bad-shear-real-syntax", "exclude": true, "since": "2e" },
             { "test": "ttml2-invld-bad-shear-unknown-keyword" }
         ]
     },

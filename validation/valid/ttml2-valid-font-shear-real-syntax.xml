@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- invalid - bad tts:fontShear value - invalid non-negative-real syntax -->
-<!-- N.B. as of ttml2 2ed, this test became excluded from the test suite because it is now valid -->
-<!-- however, it is being retained for historical purposes, and should not produce any warning or error -->
+<!-- valid - tts:fontShear - valid non-negative-real syntax (since ttml2 2ed) -->
 <tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml"
     xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="ttml2-transformation"
     xmlns:tts="http://www.w3.org/ns/ttml#styling"
