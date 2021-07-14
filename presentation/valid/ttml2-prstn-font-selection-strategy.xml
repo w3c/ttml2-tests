@@ -10,7 +10,6 @@
   <head>
     <metadata>
       <ttm:desc>#fontSelectionStrategy</ttm:desc>
-      <ttm:desc>(requires use of default font that does not support combining character sequences)</ttm:desc>
     </metadata>
     <styling>
       <style xml:id="sBackground" tts:backgroundColor="#A0A0A0"/>
@@ -25,13 +24,13 @@
     </layout>
   </head>
   <body style="sBody">
-    <div region="r1" begin="0s" end="1s" tts:fontFamily="default,Noto Sans" tts:fontSelectionStrategy="auto">
+    <div region="r1" begin="0s" end="1s" tts:fontFamily="Noto Sans" tts:fontSelectionStrategy="auto">
       <p>a&#x0301;e&#x0301;i&#x0301;o&#x0301;u&#x0301;</p>
     </div>
     <div region="r2" begin="0s" end="1s" tts:fontSize="24px" tts:lineHeight="32px">
       <p>auto strategy</p>
     </div>
-    <div region="r1" begin="2s" end="3s" tts:fontFamily="default,Noto Sans" tts:fontSelectionStrategy="character">
+    <div region="r1" begin="2s" end="3s" tts:fontFamily="Salsa" tts:fontSelectionStrategy="character">
       <p>a&#x0301;e&#x0301;i&#x0301;o&#x0301;u&#x0301;</p>
     </div>
     <div region="r2" begin="2s" end="3s" tts:fontSize="24px" tts:lineHeight="32px">
