@@ -24,14 +24,14 @@
     </layout>
   </head>
   <body style="sBody">
-    <div region="r1" begin="0s" end="1s" tts:fontFamily="Noto Sans" tts:fontSelectionStrategy="auto">
-      <p>a&#x0301;e&#x0301;i&#x0301;o&#x0301;u&#x0301;</p>
+    <div region="r1" begin="0s" end="1s" tts:fontFamily="PT Mono,Noto Sans" tts:fontSelectionStrategy="auto">
+      <p>a&#x0300;e&#x0300;i&#x0300;o&#x0300;u&#x0300;</p>
     </div>
     <div region="r2" begin="0s" end="1s" tts:fontSize="24px" tts:lineHeight="32px">
       <p>auto strategy</p>
     </div>
-    <div region="r1" begin="2s" end="3s" tts:fontFamily="Salsa" tts:fontSelectionStrategy="character">
-      <p>a&#x0301;e&#x0301;i&#x0301;o&#x0301;u&#x0301;</p>
+    <div region="r1" begin="2s" end="3s" tts:fontFamily="PT Mono,Noto Sans" tts:fontSelectionStrategy="character">
+      <p>a&#x0300;e&#x0300;i&#x0300;o&#x0300;u&#x0300;</p>
     </div>
     <div region="r2" begin="2s" end="3s" tts:fontSize="24px" tts:lineHeight="32px">
       <p>per-character strategy</p>
