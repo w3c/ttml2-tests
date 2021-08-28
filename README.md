@@ -24,8 +24,6 @@ The presentation test suite is found under the `presentation` directory, and is 
 
 A mapping from (designated) features to specific tests is found in `presentation/tests.json`, which, for each new TTML2 feature designator, lists presentation tests (by name), and optionally includes a per-test exclusion flag if the test is intended to be excluded from exit criteria consideration. We refer to this mapping file as the *presentation test manifest*.
 
-For tests having primarily visual presentation semantics, each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`, which contains the output of a particular reference implementation (TTPE). Each such _reference archive_ contains a manifest file and one or more image frames represented in some image format. In the present form of the reference archives, the image format is `image/svg+xml`. These image frames should **not** be construed as normative, but merely serve as a possible reference image for performing (human visual) comparisons of expected output.
-
 ## Excluded Tests
 
 As noted above, the two (validation and presentation) test manifests employ an *exclusion* flag to denote that a test is excluded from exit criteria consideration. The tests marked as excluded (presently) consist of tests that may be useful for testing implementations, but are not necessarily derived from normative specification language, as well as tests for which there is some question as to whether they correctly represent normative specification requirements. In both cases, these tests may, but need not be exercised by implementations, and there is no expectation that the results from such tests will be reported by implementors.
